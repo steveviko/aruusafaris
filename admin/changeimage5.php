@@ -19,7 +19,7 @@ $query->bindParam(':vimage',$vimage,PDO::PARAM_STR);
 $query->bindParam(':id',$id,PDO::PARAM_STR);
 $query->execute();
 
-$msg="Image updated successfully";
+$msg="Image updated successfully ";
 
 
 
