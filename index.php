@@ -258,7 +258,7 @@ if($query->rowCount() > 0)
 						<figcaption class="info-wrap">
 								<a href="#" class="title mb-2"><strong>Package Name:</strong><?php echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
 								<div class="price-wrap mb-3">
-									<span class="price">From, $<?php echo htmlentities($result->PackagePrice);?>"</span> 
+									<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
 									<small class="text-muted"></small>
 								</div> <!-- price-wrap.// -->
 								<a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
@@ -317,7 +317,7 @@ foreach($results as $result)
 			<div class="card-body">
 				<h6 class="title"><?php echo htmlentities($result->PackageName);?> </h6>
 				<img class="img-sm float-right"  src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>"> 
-				<p class="text-muted">From, $<?php echo htmlentities($result->PackagePrice);?></p>
+				<!-- <p class="text-muted">From, $<?php //echo htmlentities($result->PackagePrice);?></p> -->
 				</a> <form action="" class="form_submit" >
 					<input type="hidden" class="pid" value=" ">
 								<input type="hidden" class="pcode" value=" ">
