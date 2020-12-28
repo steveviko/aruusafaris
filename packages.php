@@ -105,7 +105,7 @@ foreach($results as $result)
 		<aside class="col-sm-3">
 			<div class="info-aside">
 				<div class="price-wrap">
-					<span class="h5 price">From, $<?php echo htmlentities($result->PackagePrice);?></span> 
+					<!-- <span class="h5 price">From, $<?php //echo htmlentities($result->PackagePrice);?></span>  -->
 					<small class="text-muted"></small>
 				</div> <!-- price-wrap.// -->
 				<small class="text-warning">Call and we customize the package within your Budget</small>

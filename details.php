@@ -105,7 +105,7 @@ if($query->rowCount() > 0)
 </div> <!-- rating-wrap.// -->
 
 <div class="mb-3"> 
-	<var class="price h4">From, $<?php echo htmlentities($result->PackagePrice);?> </var> 
+	<!-- <var class="price h4">From, $<?php// echo htmlentities($result->PackagePrice);?> </var>  -->
 	<span class="text-muted"></span> 
 </div> <!-- price-detail-wrap .// -->
 
