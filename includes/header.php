@@ -78,7 +78,7 @@ include('includes/config.php');
 	<nav class="navbar p-md-0 navbar-fixed navbar-expand-sm navbar-light border-bottom">
 	<div class="container">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		<span class="navbar-toggler-icon"></span>
+		<span class="navbar-toggler-icon"></span>contact 
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarTop4">
 		<ul class="navbar-nav mr-auto">
@@ -133,8 +133,8 @@ include('includes/config.php');
 				</div>
 			</div> 
 		</div>   -->
-		<div class="col-lg-5  col-md-7 col-sm-12 col">
-			<form action="search.php" method="get"  enctype="multipart/form-data" class="search-header">
+		<div class="col-lg-5  col-md-7 col-sm-12 col search">
+			<form action="search.php" method="get"  enctype="multipart/form-data" id="searchform" class="search-header">
 				<div class="input-group w-100">
 					<input type="text" class="form-control" name="search_query" style="width:60%;" placeholder="Search">
 					<!-- <select class="custom-select border-left"  name="category_name">
@@ -150,17 +150,37 @@ include('includes/config.php');
 				</div>
 			</form> <!-- search-wrap .end// -->
 		</div> <!-- col.// -->
-		<div class="col-md-5 col-lg-5 col-sm-12 col-12 text-md-right">
-				<div class="mt-3 mt-md-0">
-				<a href="#services" class="btn btn-success">Services</a>
-			  <a href="./packages.php" class="btn btn-success">Packages </a>
-			  <a href="./cars_list.php" class="btn btn-success"> Car Hire </a>
-			  <a href="book.php" class="btn btn-success"> Safaris Bookings <span class="ml-2 badge badge-warning"></span>
-			  </a>  
-			  <button class="btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i>
+		
+		<div class="col-md-5 col-lg-5 col-sm-12 col-12 text-md-right" >
+		<button class="col-sm-12 btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i>Services
 			  </button>
-			</div>			
+			  <nav class="navbar navbar-main navbar-expand-md ">
+  <div class="container">
+    <div class="collapse navbar-collapse" id="main_nav8">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+         
+		  <a href="#services" class="nav-link pl-0 mr-1 btn btn-success">Services</a>
+        </li>
+		<li class="nav-item">
+         
+		<a href="./packages.php" class="nav-link pl-0 mr-1 btn btn-success">Packages </a>
+        </li>
+		<li class="nav-item">
+         
+		<a href="./cars_list.php" class="nav-link pl-0 mr-1 btn btn-success"> Car Hire </a>
+        </li>
+		<li class="nav-item">
+         
+		<a href="book.php" class="nav-link pl-0 btn btn-success"> Safaris Bookings <span class="ml-2 badge badge-warning"></span>
+					</a>  
+        </li>
+		</ul>
+    </div> <!-- collapse .// -->
+  </div> <!-- container .// -->
+</nav>
+							
 			
 		</div> <!-- col.// -->
 	</div> <!-- row.// -->
@@ -171,7 +191,7 @@ include('includes/config.php');
 	<nav class="navbar navbar-main navbar-expand-lg border-bottom" style="background:#489689;">
 	  <div class="container">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav4" aria-expanded="false" aria-label="Toggle navigation">
-		  <span class="navbar-toggler-icon"></span>
+		  <span class="navbar-toggler-icon"></span>menu
 		</button>
 		<div class="collapse navbar-collapse" id="main_nav4">
         <?php 

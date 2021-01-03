@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.
-// define('DB_HOST','us-cdbr-east-02.cleardb.com');
-// define('DB_USER','bcbb69c6374e89');
-// define('DB_PASS','d17696e4');
-// define('DB_NAME','heroku_b08175d2f44f053');
+define('DB_HOST','localhost');
+define('DB_USER','root');
+define('DB_PASS','');
+define('DB_NAME','tours');
 // Establish database connection.
 define('DB_HOST','remotemysql.com');
 define('DB_USER','UdESu1z1Dc');

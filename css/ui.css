@@ -11,7 +11,6 @@ INCLUDE STYLES AND COMPONENTS
 ===================== */
 /* ================== HELPERS  =================== */
 
-
 a:hover {
   text-decoration: none;
 }
@@ -1752,3 +1751,17 @@ html[dir="rtl"] .itemside .info {
   padding-left: initial;
 }
 /*# sourceMappingURL=ui.css.map */
+
+@media screen and (max-width: 425px) {
+  #main_nav8 > li {
+    width: 100%;
+    background-color: red;
+  }
+  .brand-wrap {
+    display: none;
+  }
+
+  #searchform {
+    width: 350px;
+  }
+}
