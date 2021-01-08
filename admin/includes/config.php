@@ -1,9 +1,9 @@
 <?php 
-// DB credentials.
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','tours');
+// // DB credentials.
+// define('DB_HOST','localhost');
+// define('DB_USER','root');
+// define('DB_PASS','');
+// define('DB_NAME','tours');
 // Establish database connection.
 define('DB_HOST','remotemysql.com');
 define('DB_USER','UdESu1z1Dc');
