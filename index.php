@@ -16,8 +16,8 @@
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
 			  </div>
 </div><!-- itemside // -->
-<nav class="nav-home-aside ">
-<div class="form-row  mt-5" >
+<nav class="nav-home-aside  ">
+<div class="form-row  mt-5 location" >
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"> Office Address </a>
 			  </div><!-- <ul class="menu-category">
 				<li><a href="#">Fashion and clothes</a></li>

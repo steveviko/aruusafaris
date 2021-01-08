@@ -69,6 +69,85 @@ include('includes/config.php');
     border: 2px solid #489689;
     border-radius: 0.55rem;
 }
+@media (max-width: 768px)
+ {
+    .brand-wrap{
+		display:none;
+		
+	}
+#search-form{
+	margin-left:-300px
+}
+	
+
+	.row > [class^="col"] {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+	margin-left: -90px;
+}
+.navbar-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 1px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: -60px;
+}
+}
+
+
+
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 0.7rem;
+    padding-left: 0rem;
+}
+
+}
+@media screen and (max-width: 425px) {
+  #main_nav8 > li {
+    width: 100%;
+    /* background-color: red; */
+  }
+  .brand-wrap {
+    display: none;
+  }
+
+  #searchform {
+    width: 280px;
+  }
+
+   .services {
+    margin-bottom: 2px;
+    width: 290px;
+    margin-left: -35px;
+  }
+  .itemside > img{
+	  width:80%
+  }
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+	width: 86%;
+	display: block;
+	/* margin-bottom:10px; */
+}
+
+.section-header{
+	margin-top:300px;
+	
+}
+.location{
+	display:none;
+}
+}
 </style>
 </head>
 <body>
@@ -111,7 +190,7 @@ include('includes/config.php');
 	
 	<section class="header-main border-bottom">
 		<div class="container">
-	<div class="row row-sm align-items-center">
+	<div class="row row-sm align-items-center searchdiv">
 		<div class="col-lg-2 col-md-3 col-6">
 			<a href="index.php" class="brand-wrap">
 				<!-- <img class="logo" src="./images/lion30.jpg" > -->
@@ -152,26 +231,26 @@ include('includes/config.php');
 		</div> <!-- col.// -->
 		
 		<div class="col-md-5 col-lg-5 col-sm-12 col-12 text-md-right" >
-		<button class="col-sm-12 btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i>Services
+		<button class="col-sm-12 btn float-right btn-light d-md-none" type="button" id="services" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fa fa-bars"></i> Our Services
 			  </button>
 			  <nav class="navbar navbar-main navbar-expand-md ">
   <div class="container">
     <div class="collapse navbar-collapse" id="main_nav8">
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <!-- <li class="nav-item services">
          
-		  <a href="#services" class="nav-link pl-0 mr-1 btn btn-success">Services</a>
-        </li>
-		<li class="nav-item">
+		  <a href="#services" class="nav-link pl-0 mr-1 btn btn-success  ">Services</a>
+        </li> -->
+		<li class="nav-item services">
          
-		<a href="./packages.php" class="nav-link pl-0 mr-1 btn btn-success">Packages </a>
+		<a href="./packages.php" class="nav-link pl-0 mr-1 btn btn-success">Tour Packages </a>
         </li>
-		<li class="nav-item">
+		<li class="nav-item services">
          
 		<a href="./cars_list.php" class="nav-link pl-0 mr-1 btn btn-success"> Car Hire </a>
         </li>
-		<li class="nav-item">
+		<li class="nav-item services">
          
 		<a href="book.php" class="nav-link pl-0 btn btn-success"> Safaris Bookings <span class="ml-2 badge badge-warning"></span>
 					</a>  
