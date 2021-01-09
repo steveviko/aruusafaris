@@ -70,7 +70,7 @@
 	  <img src="images/banners/1.jpg" alt="First slide"> 
 	  <div class="carousel-caption">
 		<h3>Africa awaits you  </h3>
-		<p>Book For an Amazing, Unique Experiences and explore top tourist destination in Africa</p>
+		<p class="sec">Book For an Amazing, Unique Experiences and explore top tourist destination in Africa</p>
 		</div>
     </div>
 
@@ -78,7 +78,7 @@
 	  <img src="images/banners/3.jpg" alt="Second slide">
 	  <div class="carousel-caption">
 		<h3>Dream and discover the world with us</h3>							
-		<p>Unforgettable Memories and Incredible Adventure</p>
+		<p class="sec">Unforgettable Memories and Incredible Adventure</p>
 		</div>	  
     </div>
 
@@ -86,7 +86,7 @@
 	  <img src="images/banners/15.jpg" alt="Third slide">
 	  <div class="carousel-caption">
 		<h3>Visit, Discover, Explore</h3>							
-		<p>From land,to the shores, we can take you there..!</p>
+		<p class="sec">From land,to the shores, we can take you there..!</p>
 		</div>	  
     </div>
 
@@ -94,7 +94,7 @@
 	  <img src="images/banners/14.jpg" alt="Fourth slide">
 	  <div class="carousel-caption">
 		<h3>Free to wonder the world</h3>							
-		<p>Explore the world with us, best prices, best services.</p>
+		<p class="sec">Explore the world with us, best prices, best services.</p>
 	</div>	  
     </div>
 
@@ -102,7 +102,7 @@
 	  <img src="images/banners/11.jpg" alt="Fifth slide">
 	  <div class="carousel-caption">
 		<h3>Your Trip,Your World, Your way</h3>
-		<p>Expedition of unexpected territory and living the life of adventure</p>
+		<p class="sec">Expedition of unexpected territory and living the life of adventure</p>
 		</div>	
     </div>
 
@@ -110,7 +110,7 @@
 	  <img src="images/banners/12.jpg" alt="Sixth slide">
 	  <div class="carousel-caption">
 		<h3>Take Your Dream Vacation</h3>
-		<p>We Take photos as a return ticket to a moment otherwise gone.</p>
+		<p class="sec">We Take photos as a return ticket to a moment otherwise gone.</p>
 		</div>	  
     </div>
 
@@ -118,7 +118,7 @@
 	  <img src="images/banners/13.jpg" alt="Seven slide">
 	  <div class="carousel-caption">
 		<h3>we are Explorer</h3>
-		<p>Mastering the art of adventure in the wild,Discover,Explore.</p>
+		<p class="sec">Mastering the art of adventure in the wild,Discover,Explore.</p>
 		</div>
     </div>
   </div>
@@ -298,52 +298,45 @@ if($query->rowCount() > 0)
 
 	</div> <!-- col.// -->
 	<div class="col-md-9">
-    <?php $sql = "SELECT * from tbltourpackages ORDER BY PackageId DESC LIMIT 0,8";
-$query = $dbh->prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{ ?>
-
-<ul class="row no-gutters bordered-cols">
-    <?php 
-foreach($results as $result)
-{	?>
-
+ 
+<?php 
 	
-	<li class="col-6 col-lg-3 col-md-4">
-		<a href="product_details.php?pid" class="item"> 
-			<div class="card-body">
-				<h6 class="title"><?php echo htmlentities($result->PackageName);?> </h6>
-				<img class="img-sm float-right"  src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>"> 
-				<!-- <p class="text-muted">From, $<?php //echo htmlentities($result->PackagePrice);?></p> -->
-				</a> <form action="" class="form_submit" >
-					<input type="hidden" class="pid" value=" ">
-								<input type="hidden" class="pcode" value=" ">
-					<input type="hidden" class="pname" value=" ">
-					<input type="hidden" class="pimage" value=" ">
-					<input type="hidden" class="pprice" value=" ">
-		
-				<div  class="clear-fix" style="margin-bottom: 15px;"> 
-						<!-- <i class=""></i>  -->
-						<p class="text-muted"><i class="fa fa-map-marker-alt"></i> <?php echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></p>
-				</div>
-					<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" title="" class="btn btn-secondary btn-sm"><i class="fa fa-heart text-danger"></i> view Details</a><br><br>
-					<!-- <button href="add.php" class="btn btn-outline-primary btn-sm"> Buy Now &nbsp;&nbsp;&nbsp;
-							<i class="fa fa-box"></i>
-						</button> -->
-					
-						</form>
-				</div>
-    </li>
-    <?php }}else{
-
-        echo "No Items found under packages";
-    } ?>
+	$sql = "SELECT * from  tbltourpackages ORDER BY PackageId DESC LIMIT 0,6";
+	$query = $dbh -> prepare($sql);
+	$query->execute();
+	$results=$query->fetchAll(PDO::FETCH_OBJ);
+	$cnt=1;
+	if($query->rowCount() > 0)
+	{
+	?>
+	   <div class="row no-gutters items-wrap">
+	  <?php foreach($results as $result)
+	{       ?>  
 	
-
-</ul>
+	 <div class="col-md-4">
+						<figure class="card card-product-grid">
+							<div class="img-wrap"> 
+								<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
+							</div> <!-- img-wrap.// -->
+							<figcaption class="info-wrap">
+									<a href="#" class="title mb-2"><strong>Package Name:</strong><?php echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
+									<div class="price-wrap mb-3">
+										<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
+										<small class="text-muted"></small>
+									</div> <!-- price-wrap.// -->
+									<a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
+									<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
+									
+									<hr>
+									<a href="#" class="btn btn-success btn-block"> View More </a>
+							</figcaption>
+						</figure>
+					</div> <!-- col.// -->
+					<?php }} else{
+		 echo "No items found under specail offers";
+	 }?>
+	 
+	</div>
 	</div> <!-- col.// -->
 </div> <!-- row.// -->
 </div> <!-- card.// -->
@@ -371,7 +364,7 @@ foreach($results as $result)
 
 <?php
 
-$sql = "SELECT tblvehicles.VehiclesTitle,tblbrands.BrandName,tblvehicles.PricePerDay,tblvehicles.FuelType,tblvehicles.ModelYear,tblvehicles.id,tblvehicles.SeatingCapacity,tblvehicles.VehiclesOverview,tblvehicles.Vimage1 from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand limit 9";
+$sql = "SELECT tblvehicles.VehiclesTitle,tblbrands.BrandName,tblvehicles.PricePerDay,tblvehicles.FuelType,tblvehicles.ModelYear,tblvehicles.id,tblvehicles.SeatingCapacity,tblvehicles.VehiclesOverview,tblvehicles.Vimage1 from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand limit 8";
 $query = $dbh -> prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -381,33 +374,23 @@ if($query->rowCount() > 0)
 ?> 
 <div class="row row-sm">
 <?php foreach($results as $result)
-{  k
+{  
 ?> 
-		
-	<div class="col-xl-2 col-lg-3 col-md-4 col-6">
-	<div href="" class="card card-sm card-product-grid">
-			<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>" class="img-wrap"> <img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>"  alt=""> </a>
-			<figcaption class="info-wrap">
-				<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>" class="title"><?php echo substr_replace(htmlentities($result->VehiclesTitle), "...", 19);?></a>
-				<div class="price mt-1">$<?php echo htmlentities($result->PricePerDay);?> /Day</div> <!-- price-wrap.// -->
-				<form action="" class="form_submit" >
-            <input type="hidden" class="pid" value=" ">
-						<input type="hidden" class="pcode" value=" ">
-            <input type="hidden" class="pname" value=" ">
-            <input type="hidden" class="pimage" value=" ">
-            <input type="hidden" class="pprice" value=" ">
-						<?php //print_r($row['productImage1']); ?>
-					
-					
-						<div  class="clear-fix" style="margin-bottom: 15px;"> 
-						</div>
-					<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>" title="" class="btn btn-secondary btn-sm"><i class="fa fa-heart text-danger"></i> view Details</a><br><br>
+<div class="col-md-3 col-sm-6">
+			<article class="card card-post">
+			<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>">  
+			<img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" class="card-img-top" alt=""></a>
+			  <div class="card-body">
+				<h6 class="title"><?php echo substr_replace(htmlentities($result->VehiclesTitle), "...", 19);?></h6>
+				<p class="small text-uppercase text-muted">Price:$<?php echo htmlentities($result->PricePerDay);?> /Day</p>
+				<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>" title="" class="btn btn-secondary btn-sm"><i class="fa fa-heart text-danger"></i> view Details</a><br><br>
 					
 			
-                </form>
-			</figcaption>
-		</div>
-	</div> <!-- col.// -->
+			  </div>
+			</article> <!-- card.// -->
+		</div> <!-- col.// -->
+		
+	
 	<?php }} else{
 
 

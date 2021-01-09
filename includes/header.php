@@ -80,12 +80,6 @@ include('includes/config.php');
 }
 	
 
-	.row > [class^="col"] {
-    padding-left: 5px;
-    padding-right: 5px;
-    display: flex;
-	margin-left: -90px;
-}
 .navbar-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -97,7 +91,7 @@ include('includes/config.php');
     padding-left: 1px;
     margin-bottom: 0;
     list-style: none;
-    margin-left: -60px;
+    margin-left: -10px;
 }
 }
 
@@ -120,9 +114,12 @@ include('includes/config.php');
   }
 
   #searchform {
-    width: 280px;
+    width: 200px;
+	z-index:2
   }
-
+  .sec{
+	  display:none;
+  }
    .services {
     margin-bottom: 2px;
     width: 290px;
@@ -137,6 +134,7 @@ include('includes/config.php');
     left: 0;
 	width: 86%;
 	display: block;
+	z-index:12;
 	/* margin-bottom:10px; */
 }
 
@@ -222,8 +220,8 @@ include('includes/config.php');
 							<option value="content">Latest</option>
 					</select> -->
 					<div class="input-group-append">
-					  <button class="btn btn-success" name="submit_search" type="submit">
-						<i class="fa fa-search"></i>
+					  <button class="btn " name="submit_search" type="submit">
+						<i class="fa fa-search "></i>
 					  </button>
 					</div>
 				</div>
