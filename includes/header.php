@@ -104,13 +104,16 @@ include('includes/config.php');
 }
 
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   #main_nav8 > li {
     width: 100%;
     /* background-color: red; */
   }
   .brand-wrap {
     display: none;
+  }
+  .serve{
+	  display:flex
   }
 
   #searchform {
@@ -139,13 +142,18 @@ include('includes/config.php');
 }
 
 .section-header{
-	margin-top:300px;
+	margin-top:230px;
 	
 }
-.location{
+#locate {
 	display:none;
 }
+
 }
+@media (max-width: 768px){
+.banner-quote {
+    height: auto;
+}}
 </style>
 </head>
 <body>
@@ -185,84 +193,40 @@ include('includes/config.php');
 	  </div> <!-- navbar-collapse .// -->
 	</div> <!-- container //  -->
 	</nav>
-	
-	<section class="header-main border-bottom">
-		<div class="container">
-	<div class="row row-sm align-items-center searchdiv">
-		<div class="col-lg-2 col-md-3 col-6">
-			<a href="index.php" class="brand-wrap">
-				<!-- <img class="logo" src="./images/lion30.jpg" > -->
-				<strong class="text-teal">ARUU FALLS SAFARIS</strong>
-			</a> <!-- brand-wrap.// -->
-		</div>
-		<!-- <div class="col-lg col-sm col-md col-6 flex-grow-0">
-			<div class="category-wrap dropdown d-inline-block float-md-right">
-				<button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown"> 
-					<i class="fa fa-bars"></i> All category 
-				</button>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="#">Machinery / Mechanical Parts / Tools </a>
-					<a class="dropdown-item" href="#">Consumer Electronics / Home Appliances </a>
-					<a class="dropdown-item" href="#">Auto / Transportation</a>
-					<a class="dropdown-item" href="#">Apparel / Textiles / Timepieces </a>
-					<a class="dropdown-item" href="#">Home & Garden / Construction / Lights </a>
-					<a class="dropdown-item" href="#">Beauty & Personal Care / Health </a> 
-				</div>
-			</div> 
-		</div>   -->
-		<div class="col-lg-5  col-md-7 col-sm-12 col search">
-			<form action="search.php" method="get"  enctype="multipart/form-data" id="searchform" class="search-header">
-				<div class="input-group w-100">
-					<input type="text" class="form-control" name="search_query" style="width:60%;" placeholder="Search">
-					<!-- <select class="custom-select border-left"  name="category_name">
-							<option value="">All type</option><option value="codex">Special</option>
-							<option value="comments">Only best</option>
-							<option value="content">Latest</option>
-					</select> -->
-					<div class="input-group-append">
-					  <button class="btn " name="submit_search" type="submit">
-						<i class="fa fa-search "></i>
-					  </button>
-					</div>
-				</div>
-			</form> <!-- search-wrap .end// -->
-		</div> <!-- col.// -->
-		
-		<div class="col-md-5 col-lg-5 col-sm-12 col-12 text-md-right" >
-		<button class="col-sm-12 btn float-right btn-light d-md-none" type="button" id="services" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fa fa-bars"></i> Our Services
-			  </button>
-			  <nav class="navbar navbar-main navbar-expand-md ">
-  <div class="container">
-    <div class="collapse navbar-collapse" id="main_nav8">
-      <ul class="navbar-nav">
-        <!-- <li class="nav-item services">
-         
-		  <a href="#services" class="nav-link pl-0 mr-1 btn btn-success  ">Services</a>
-        </li> -->
-		<li class="nav-item services">
-         
-		<a href="./packages.php" class="nav-link pl-0 mr-1 btn btn-success">Tour Packages </a>
-        </li>
-		<li class="nav-item services">
-         
-		<a href="./cars_list.php" class="nav-link pl-0 mr-1 btn btn-success"> Car Hire </a>
-        </li>
-		<li class="nav-item services">
-         
-		<a href="book.php" class="nav-link pl-0 btn btn-success"> Safaris Bookings <span class="ml-2 badge badge-warning"></span>
-					</a>  
-        </li>
-		</ul>
-    </div> <!-- collapse .// -->
-  </div> <!-- container .// -->
-</nav>
-							
-			
-		</div> <!-- col.// -->
-	</div> <!-- row.// -->
-		</div> <!-- container.// -->
-	</section> <!-- header-main .// -->
+	<section class="header-main">
+	<div class="container">
+    <div class="row align-items-center">
+    	<div class="col-md-1 col-lg-3 col-12">
+      	<a href="index.php" class="brand-wrap">
+         <strong class='text-teal'>ARUU FALLS SAFARIS</strong>
+       </a> <!-- brand-wrap.// -->
+    	</div>
+    	<div class="col-md-3 col-lg-4 col-12">
+    		<form action="search.php" method="get"  enctype="multipart/form-data"  class="search">
+    			<div class="input-group">
+    			    <input type="text" class="form-control"  name="search_query" placeholder="Search">
+    			    <div class="input-group-append">
+    			      <button class="btn btn-success" name="submit_search"  type="submit">
+    			        <i class="fa fa-search"></i>
+    			      </button>
+    			    </div>
+    		    </div>
+    		</form> <!-- search-wrap .end// -->
+    	</div> <!-- col.// -->
+    	<div class="col-md-7 col-lg-5 col-sm-12 col-12  text-md-right">
+    		<div class="mt-3 mt-md-0 serve">
+          <a href="./packages.php" class="btn btn-success"> Tour Packages </a>
+          <a href="./cars_list.php" class="btn btn-success"> Car Hire </a>
+          <a href="book.php" class="btn btn-success"> Safaris Booking</a>  
+          <button class="btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+    	</div> <!-- col.// -->
+    </div> <!-- row.// -->
+	</div> <!-- container.// -->
+</section> <!-- header-main .// -->
+
 	
 	
 	<nav class="navbar navbar-main navbar-expand-lg border-bottom" style="background:#489689;">

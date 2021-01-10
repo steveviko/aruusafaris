@@ -8,7 +8,7 @@
 
 
 <div class="row">
-	<aside class="col-lg col-md-3 flex-lg-grow-0">
+	<aside class="col-lg col-md-4 flex-lg-grow-0">
 	<div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
@@ -17,8 +17,8 @@
 			  </div>
 </div><!-- itemside // -->
 <nav class="nav-home-aside  ">
-<div class="form-row  mt-5 location" >
-			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"> Office Address </a>
+<div class="form-row  mt-5 " >
+			   
 			  </div><!-- <ul class="menu-category">
 				<li><a href="#">Fashion and clothes</a></li>
 				<li><a href="#">Automobile and motors</a></li>
@@ -37,8 +37,8 @@
 				</li>
 			</ul> -->
 		</nav>
-<div class="col-md-12">
-
+<div class="col-md-12 " id="locate" >
+<a href="#" class="btn btn-success btn-sm btn-block mt-1"> Office Address </a>
 
                 <article class="box mb-1">
                     <h6>Gulu, Uganda</h6>
@@ -56,7 +56,7 @@
 			</ul>
 		</nav> -->
 	</aside> <!-- col.// -->
-	<div class="col-md-9 col-xl-7 col-lg-7">
+	<div class="col-md-8 col-xl-7 col-lg-7">
 
 <!-- ================== COMPONENT SLIDER  BOOTSTRAP  ==================  -->
 <div id="carousel1_indicator" class="slider-home-banner carousel slide" data-ride="carousel">
@@ -222,7 +222,7 @@
 
 <!-- =============== SECTION DEAL =============== -->
 <section class="padding-bottom">
- <div class="card card-deal" >
+ <div class="card card-deal " >
      <div class="col-heading content-body" style="background:#489689;">
       <header class="section-heading">
        <h3 class="section-title">Specail Offers</h3>

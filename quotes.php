@@ -29,13 +29,14 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 
 }
 ?>
+
 <header class="section-heading heading-line">
 	<h4 class="title-section text-uppercase">Request for Quotation</h4>
 </header>
 
 <div class="row">
 	<div class="col-md-8">
-<div class="card-banner banner-quote overlay-gradient" style="background-image: url('images/banners/banner9.jpg');">
+<div class="card-banner banner-quote overlay-gradient" style="background-image: url('images/banners/banner9.jpg');height:auto;">
   <div class="card-img-overlay white">
     <h3 class="card-title">An easy way to send request and Plan your Package</h3>
     <p class="card-text" style="max-width: 400px">Explore the world with us, best prices, best services, From land,to the shores, we can take you there.</p>
