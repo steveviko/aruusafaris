@@ -12,9 +12,9 @@
 	<div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
-	<div class="form-row "style="margin-top:-3px;" >
+	<!-- <div class="form-row "style="margin-top:-3px;" >
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
-			  </div>
+			  </div> -->
 </div><!-- itemside // -->
 <nav class="nav-home-aside  ">
 <div class="form-row  mt-5 " >
@@ -56,7 +56,7 @@
 			</ul>
 		</nav> -->
 	</aside> <!-- col.// -->
-	<div class="col-md-8 col-xl-7 col-lg-7">
+	<div class="col-md-8 col-xl-9 col-lg-9">
 
 <!-- ================== COMPONENT SLIDER  BOOTSTRAP  ==================  -->
 <div id="carousel1_indicator" class="slider-home-banner carousel slide" data-ride="carousel">
@@ -134,84 +134,7 @@
 <!-- ==================  COMPONENT SLIDER BOOTSTRAP end.// ==================  .// -->	
 
 	</div> <!-- col.// -->
-	<div class="col-md d-none d-lg-block flex-grow-1">
-		<aside class="special-home-right">
-		<h6 class="bg-blue text-center text-white mb-0 p-2">Enquire</h6>
 	
-		<form method="post" action="enquire.php">
-		<div class="form-row">
-	
-				<div class="col form-group">
-					<label>Name</label>
-				  	<input type="text" class="form-control" name="name" required="" placeholder="Enter your name Name">
-				</div> <!-- form-group end.// -->
-				<div class="col form-group">
-					<label>Email</label>
-				  	<input type="email" class="form-control" name="email" required="" placeholder="Enter your email">
-				</div> <!-- form-group end.// -->
-			</div> <!-- form-row.// -->
-			
-		<div class="form-row">
-				<div class="form-group col-md-6">
-				  <label>Nationality</label>
-				  <input type="text" class="form-control" name="nationality" required="" placeholder="Enter your Nationality">
-				</div> <!-- form-group end.// -->
-				<div class="form-group col-md-6">
-				  <label>Phone</label>
-				  <input type="text" class="form-control" name="phone"  required="" placeholder="Enter your phone Number">
-				</div> <!-- form-group end.// -->
-			</div> <!-- form-row.// -->
-
-			<div class="form-row">
-			<div class="form-group col-md-6">
-				  <label >Budget</label>
-				  <select name="budget"  required="" class="form-control">
-					<option>$0-1000(per person) </option>
-					<option>$1000-2000(per person)</option>
-					<option>$2000-3000(per person)</option>
-					<option>$3000-4000(per person)</option>
-					<option>$5000 or More(per person)</option>
-					<option>Not Important</option>
-				</select>
-				</div>
-				<div class="form-group col-md-6">
-				  <label >Interests</label>
-				  <select name="interest" required class="form-control">
-					<option>Wildlife Viewing</option>
-					<option>Birding</option>
-					<option>Gorilla Tracking</option>
-					<option>Mountaineering</option>
-					<option>Honeymoon</option>
-					<option>Cultural Tour</option>
-				</select>
-				</div> <!-- form-group end.// -->
-			</div>
-		
-			<div class="form-row">
-			
-			<label style="margin-top:-10px;">What is message about?</label>
-					<textarea class="form-control" rows="3" name="message " required=""></textarea>
-			</div> <!-- form-row.// -->
-			<!-- <button class="btn btn-primary mt-1">Save</button>	
-			<button class="btn btn-success">Change password</button>	 -->
-
-			<div class="form-row">
-			    <button type="submit" name="submit1" class="btn btn-success btn-sm btn-block mt-1"> Submit  </button>
-			  </div>
-			
-		</form>
-			
-
-			<!-- <div class="card-banner border-bottom">
-			  <div class="py-3" style="width:80%">
-			    <h6 class="card-title">Home inventory</h6>
-			    <a href="#" class="btn btn-secondary btn-sm"> Source now </a>
-			  </div> 
-			  <img src="images/items/6.jpg" height="80" class="img-bg">
-			</div> -->
-
-		</aside>
-	</div> <!-- col.// -->
 </div> <!-- row.// -->
 	</div> <!-- card-body.// -->
 </main> <!-- card.// -->
@@ -222,61 +145,61 @@
 
 <!-- =============== SECTION DEAL =============== -->
 <section class="padding-bottom">
- <div class="card card-deal " >
+ <!-- <div class="card card-deal " >
      <div class="col-heading content-body" style="background:#489689;">
       <header class="section-heading">
        <h3 class="section-title">Specail Offers</h3>
        <p>To Top East African Tourist Destinations</p>
-     </header><!-- sect-heading -->
-     <div class="timer">
+     </header>sect-heading -->
+     <!-- <div class="timer">
        <div> <span class="num">04</span> <small>Days</small></div>
        <div> <span class="num">12</span> <small>Hours</small></div>
        <div> <span class="num">58</span> <small>Min</small></div>
        <div> <span class="num">02</span> <small>Sec</small></div>
      </div>
-   </div> <!-- col.// -->
+   </div> col.// -->
   
-	<?php 
+	<!-- <?php 
 	
-$sql = "SELECT * from  tbltourpackages ORDER BY PackageId ASC LIMIT 0,3";
-$query = $dbh -> prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
+// $sql = "SELECT * from  tbltourpackages ORDER BY PackageId ASC LIMIT 0,3";
+// $query = $dbh -> prepare($sql);
+// $query->execute();
+// $results=$query->fetchAll(PDO::FETCH_OBJ);
+// $cnt=1;
+// if($query->rowCount() > 0)
+// {
 ?>
    <div class="row no-gutters items-wrap">
-  <?php foreach($results as $result)
-{       ?>  
+  <?php// foreach($results as $result)
+//{       ?>  
 
  <div class="col-md-4">
 					<figure class="card card-product-grid">
 						<div class="img-wrap"> 
-							<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>"">
-						</div> <!-- img-wrap.// -->
-						<figcaption class="info-wrap">
-								<a href="#" class="title mb-2"><strong>Package Name:</strong><?php echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
+							<img src="admin/pacakgeimages/<?php //echo htmlentities($result->PackageImage);?>"">
+						</div>  img-wrap.// -->
+						<!-- <figcaption class="info-wrap">
+								<a href="#" class="title mb-2"><strong>Package Name:</strong><?php //echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php// echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
 								<div class="price-wrap mb-3">
-									<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
-									<small class="text-muted"></small>
-								</div> <!-- price-wrap.// -->
-								<a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
-								<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
+									 <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
+									<!-- <small class="text-muted"></small> 
+								</div>  price-wrap.// -->
+								<!-- <a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
+								<a href="details.php?pkgid=<?php //echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
 								
 								<hr>
 								<a href="#" class="btn btn-success btn-block"> View More </a>
 						</figcaption>
 					</figure>
-				</div> <!-- col.// -->
-				<?php }} else{
-	 echo "No items found under specail offers";
- }?>
+				</div> -->
+				<?php //}} else{
+	 //echo "No items found under specail offers";
+ //}?>
  
-</div>
+<!-- </div>
 </div>
 
-</section>
+</section> --> 
 <!-- =============== SECTION DEAL // END =============== -->
 
 <!-- =============== SECTION 1 =============== -->
@@ -287,7 +210,7 @@ if($query->rowCount() > 0)
 
 <div class="card card-home-category">
 <div class="row no-gutters">
-	<div class="col-md-3">
+	<!-- <div class="col-md-3">
 	
 	<div class="home-category-banner " style="background:#489689;">
 		<h5 class="title">Planning Your East African Adventure with Aruu Falls Safaris</h5>
@@ -296,12 +219,12 @@ if($query->rowCount() > 0)
 		<img src="images/logo1.jpg" class="img-bg">
 	</div>
 
-	</div> <!-- col.// -->
-	<div class="col-md-9">
+	</div> col.// -->
+	<div class="col-md-12">
  
 <?php 
 	
-	$sql = "SELECT * from  tbltourpackages ORDER BY PackageId DESC LIMIT 0,6";
+	$sql = "SELECT * from  tbltourpackages ORDER BY PackageId DESC LIMIT 0,3";
 	$query = $dbh -> prepare($sql);
 	$query->execute();
 	$results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -319,7 +242,7 @@ if($query->rowCount() > 0)
 								<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
 							</div> <!-- img-wrap.// -->
 							<figcaption class="info-wrap">
-									<a href="#" class="title mb-2"><strong>Package Name:</strong><?php echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
+									<a href="#" class="title mb-2"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageFetures), "...", 100);?></a>
 									<div class="price-wrap mb-3">
 										<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
 										<small class="text-muted"></small>
@@ -327,8 +250,8 @@ if($query->rowCount() > 0)
 									<a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
 									<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
 									
-									<hr>
-									<a href="#" class="btn btn-success btn-block"> View More </a>
+									<!-- <hr> -->
+									<!-- <a href="#" class="btn btn-success btn-block"> View More </a> -->
 							</figcaption>
 						</figure>
 					</div> <!-- col.// -->
@@ -355,49 +278,7 @@ if($query->rowCount() > 0)
 <!-- =============== SECTION REQUEST .//END =============== -->
 
 
-<!-- =============== SECTION ITEMS =============== -->
-<section  class="padding-bottom-sm">
 
-<header class="section-heading heading-line">
-	<h4 class="title-section text-uppercase">Car Hire</h4>
-</header>
-
-<?php
-
-$sql = "SELECT tblvehicles.VehiclesTitle,tblbrands.BrandName,tblvehicles.PricePerDay,tblvehicles.FuelType,tblvehicles.ModelYear,tblvehicles.id,tblvehicles.SeatingCapacity,tblvehicles.VehiclesOverview,tblvehicles.Vimage1 from tblvehicles join tblbrands on tblbrands.id=tblvehicles.VehiclesBrand  ORDER BY  id DESC  limit 8";
-$query = $dbh -> prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-?> 
-<div class="row row-sm">
-<?php foreach($results as $result)
-{  
-?> 
-<div class="col-md-3 col-sm-6">
-			<article class="card card-post">
-			<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>">  
-			<img src="admin/img/vehicleimages/<?php echo htmlentities($result->Vimage1);?>" class="card-img-top" alt=""></a>
-			  <div class="card-body">
-				<h6 class="title"><?php echo substr_replace(htmlentities($result->VehiclesTitle), "...", 19);?></h6>
-				<p class="small text-uppercase text-muted">Price:$<?php echo htmlentities($result->PricePerDay);?> /Day</p>
-				<a href="v_details.php?vhid=<?php echo htmlentities($result->id);?>" title="" class="btn btn-secondary btn-sm"><i class="fa fa-heart text-danger"></i> view Details</a><br><br>
-					
-			
-			  </div>
-			</article> <!-- card.// -->
-		</div> <!-- col.// -->
-		
-	
-	<?php }} else{
-
-
-echo "No items under Car Rentals";
-	}?>
-</div> <!-- row.// -->
-</section>
 <!-- =============== SECTION ITEMS .//END =============== -->
 
 
