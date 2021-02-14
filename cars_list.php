@@ -8,7 +8,7 @@
 
 
 <div class="row">
-	<aside class="col-md-2">
+	<aside class="col-md-2" style="margin-top:135px">
 
 	
 	<?php include_once"aside.php"; ?>
@@ -16,7 +16,7 @@
 	<main class="col-md-10">
 
 <!-- ============================  FILTER TOP  ================================= -->
-<div class="card mb-3">
+<div class="card mb-3" style="margin-top:115px">
 	<div class="card-body">
 		<ol class="breadcrumb float-left">
 			<li class="breadcrumb-item"><a href="index.php">Home</a></li>

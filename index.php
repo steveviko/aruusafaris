@@ -2,8 +2,8 @@
 <?php include_once("./includes/header.php"); ?>
 <div class="container">
 <!-- ========================= SECTION MAIN  ========================= -->
-<section class="section-main padding-y">
-<main class="card">
+<section class="section-main padding-y" >
+<main class="card " style="margin-top:115px">
 	<div class="card-body">
 
 
@@ -37,7 +37,37 @@
 				</li>
 			</ul> -->
 		</nav>
-<div class="col-md-12 " id="locate" >
+		<aside class="col-sm-12">
+			<div class="info-aside">
+				<div class="price-wrap">
+					<span class="h5 price">Find Us</span> 
+					<small class="text-muted">
+					<article class="box mb-1">
+                    
+                    <p class="text-warning">Gulu,Building: Nestone <br> Floor: 22, Aprt: 12 
+                   <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
+				   </p> </article>
+					</small>
+				</div> <!-- price-wrap.// -->				
+				
+				
+				<p class="mt-3">
+					<a href="#" class="btn btn-outline-primary btn-sm"> <i class="fa fa-envelope"></i> aruufalssafaris@gmail.com </a>
+					<!-- <a href="#" class="btn btn-outline-primary"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a> -->
+					<a href="#" class="btn btn-outline-primary btn-sm mt-1"> <i class="fab fa-whatsapp" style="color:green;"></i> &nbsp;&nbsp;&nbsp; (+256) 772 517 666 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+					
+					<a href="#" class="btn btn-outline-secondary btn-sm mt-1"><i class="fa fa-phone" style="color:red;"></i> &nbsp;&nbsp;&nbsp; call: (+256) 772 517 666 &nbsp;&nbsp;&nbsp;</a>
+				</p>
+
+				<!-- <label class="custom-control mt-3 custom-checkbox">
+					  <input type="checkbox" class="custom-control-input">
+				  	  <div class="custom-control-label">Add to compare
+				  </div>
+				</label> -->
+
+			</div> <!-- info-aside.// -->
+		</aside>
+<!-- <div class="col-md-12 " id="locate" >
 <a href="#" class="btn btn-success btn-sm btn-block mt-1"> Office Address </a>
 
                 <article class="box mb-1">
@@ -45,7 +75,7 @@
                     <p>Building: Nestone <br> Floor: 22, Aprt: 12  </p>
                     <a href="#" class="btn btn-light disabled"> <i class="fa fa-location"></i> </a> <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
                 </article>
-            </div>  <!-- col.// -->
+            </div>  col.// -->
 		
 		
 		
@@ -266,7 +296,81 @@
 </section>
 <!-- =============== SECTION 1 END =============== -->
 
+<section class="padding-bottom">
+<header class="section-heading heading-line" >
+	<h4 class="title-section text-uppercase">Testimonials</h4>
+</header>
 
+<div class="row">
+        <div class="col-md-12">
+            <div id="testimonial-slider" class="owl-carousel">
+                <div class="testimonial">
+                    <p class="description">
+					This was our fourth trip with Aruu Falls Safrais Travels and it lived up to our very high expectations. It was a wonderfully organized trip with beautiful cruising and swimming spots, great hikes, and fascinating lectures on the region and history. The Vehicles was beautiful, comfortable, and excellently crewed
+                    </p>
+                    <div class="pic">
+                        <img src="./images/6.jpeg" alt="6">
+                    </div>
+                    <h3 class="title">Williamson Okeng</h3>
+                    <span class="post">Uganda,Manager</span>
+                </div>
+				<div class="testimonial">
+                    <p class="description">
+					This was the first time I had travelled with Aruu Falls Safaris. The company specialises in expert-led cultural and gulet tours in Europe. Group numbers are small, accommodation comfortable and food excellent. The expert guide who accompanied us was outstanding - passionate, informative, engaging and entertaining
+                    </p>
+                    <div class="pic">
+                        <img src="./images/7.jpg" alt="6">
+                    </div>
+                    <h3 class="title">Kevin John</h3>
+                    <span class="post">Sweeden,Tutor</span>
+                </div>
+				<div class="testimonial">
+                    <p class="description">
+					Never could I have imagined the wonderful experiences that awaited me/us/before we began our trip.
+					I would highly recommend this company to anyone wanting a fun, relaxed, educational holiday with fine food - they will deliver!
+					</p>
+                    <div class="pic">
+                        <img src="./images/3.png" alt="6">
+                    </div>
+                    <h3 class="title">Susan Ross</h3>
+                    <span class="post">Canada Entreprenuer</span>
+                </div>
+
+                <div class="testimonial">
+                    <p class="description">
+					The holiday of a life time - our Uganda’s hidden pearls adventure in the Gorilla Trek was without a doubt our favourite family trip. The comfort and beauty of the Kidepo National Park, the incredibly caring crew, the delicious food
+                    </p>
+                    <div class="pic">
+                        <img src="./images/7.jpeg" alt="7">
+                    </div>
+                    <h3 class="title">steven</h3>
+                    <span class="post">USA, Web Designer</span>
+                </div>
+				<div class="testimonial">
+                    <p class="description">
+					We had the most remarkable family tour with Aruu falls safaris. Not only everything was perfect, but we felt, in every instance, that our guides and our gulet crew truly cared about us, both the kids and adults, and did their best to make this trip memorable
+                    </p>
+                    <div class="pic">
+                        <img src="./images/8.jpeg" alt="8">
+                    </div>
+                    <h3 class="title">Johnson Katumba</h3>
+                    <span class="post">Uganda, Unknown</span>
+                </div>
+				<div class="testimonial">
+                    <p class="description">
+					Excellent. Our best tour operator yet. The itinerary was carefully thought through and well balanced. The trip represented great travel for the cost. Our booking was easy, the pre-information packet was timely and thorough.
+                    </p>
+                    <div class="pic">
+                        <img src="./images/c.png" alt="c">
+                    </div>
+                    <h3 class="title">kristina</h3>
+                    <span class="post">USA,Egineer</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- =============== SECTION REQUEST =============== -->

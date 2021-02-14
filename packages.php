@@ -6,7 +6,7 @@
 
 
 <div class="row">
-	<aside class="col-md-2">
+	<aside class="col-md-2 " style="margin-top:135px">
 
 	<?php include_once"aside.php"; ?>
 	
@@ -24,7 +24,7 @@ $cnt=$query->rowCount();
 ?>
 
 <!-- ============================  FILTER TOP  ================================= -->
-<div class="card mb-3">
+<div class="card mb-3" style="margin-top:115px">
 	<div class="card-body">
 		<ol class="breadcrumb float-left">
 			<li class="breadcrumb-item"><a href="index.php">Home</a></li>
@@ -102,7 +102,7 @@ foreach($results as $result)
 
 			</div> <!-- info-main.// -->
 		</div> <!-- col.// -->
-		<aside class="col-sm-3">
+		<aside class="col-sm-3" >
 			<div class="info-aside">
 				<div class="price-wrap">
 					<!-- <span class="h5 price">From, $<?php //echo htmlentities($result->PackagePrice);?></span>  -->

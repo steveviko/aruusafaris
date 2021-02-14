@@ -47,7 +47,7 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 
 
 <div class="row">
-	<aside class="col-md-2">
+	<aside class="col-md-2" style="margin-top:135px">
 
 	
 		<?php include_once"aside.php"; ?>
@@ -65,7 +65,7 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 <!-- ============================ ITEM DETAIL ======================== -->
 	<div class="row">
 		<aside class="col-md-6">
-<div class="card">
+<div class="card" style="margin-top:115px">
 <article class="gallery-wrap"> 
 	<div class="img-big-wrap">
 	

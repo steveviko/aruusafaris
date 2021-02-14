@@ -89,7 +89,7 @@
 						<li> <a href="#">Contact us</a></li>
 						<li> <a href="#"><i class="fab fa-whatsapp"></i> (+256) 772 517 666 </a></li>
 						<li> <a href="#"><i class="fa fa-phone"></i> (+256) 772 517 666 </a></li>
-						<li> <a href="#"><i class="fa fa-envelope"></i> info.@aruufalls.com </a></li>
+						<li> <a href="#"><i class="fa fa-envelope"></i> aruufalls@gmail.com</a></li>
 						<!-- <li> <a href="#">Open dispute</a></li> -->
 					</ul>
 				</aside>
@@ -125,6 +125,22 @@
 <!-- ========================= FOOTER END // ========================= -->
 <script src="./js/jquery-2.0.0.min.js" type="text/javascript"></script>
 <script src="./js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+$(document).ready(function(){
+    $("#testimonial-slider").owlCarousel({
+        items:3,
+        itemsDesktop:[1000,3],
+        itemsDesktopSmall:[990,2],
+        itemsTablet:[768,2],
+        itemsMobile:[650,1],
+        pagination:true,
+        navigation:false,
+        autoPlay:true
+    });
+});
+</script>
 <script>
 		// Can also be used with $(document).ready()
 		$(window).load(function () {
