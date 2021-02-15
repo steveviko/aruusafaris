@@ -8,7 +8,7 @@
 
 
 <div class="row">
-	<aside class="col-lg col-md-4 flex-lg-grow-0">
+	<aside class="col-lg col-md-4 flex-lg-grow-0" style="background:#000000;padding:10px 7px;">
 	<div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
@@ -16,8 +16,8 @@
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
 			  </div> -->
 </div><!-- itemside // -->
-<nav class="nav-home-aside  ">
-<div class="form-row  mt-5 " >
+<nav class="nav-home-aside  " >
+<div class="form-row  mt-2 " >
 			   
 			  </div><!-- <ul class="menu-category">
 				<li><a href="#">Fashion and clothes</a></li>
@@ -37,10 +37,10 @@
 				</li>
 			</ul> -->
 		</nav>
-		<aside class="col-sm-12">
+		<aside class="col-sm-12" >
 			<div class="info-aside">
 				<div class="price-wrap">
-					<span class="h5 price">Find Us</span> 
+					<span class="h5 price" style="color: #ff6a00;">Find Us</span> 
 					<small class="text-muted">
 					<article class="box mb-1">
                     
@@ -271,8 +271,8 @@
 							<div class="img-wrap"> 
 								<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
 							</div> <!-- img-wrap.// -->
-							<figcaption class="info-wrap">
-									<a href="#" class="title mb-2"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageFetures), "...", 100);?></a>
+							<figcaption class="info-wrap" style="background:#060606;font-weight:bolder;color:#ffffff;height: 250px;">
+									<a href="#" class="title mb-2" style="color: #dee2e6;"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageFetures), "...", 100);?></a>
 									<div class="price-wrap mb-3">
 										<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
 										<small class="text-muted"></small>

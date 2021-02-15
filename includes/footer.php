@@ -10,8 +10,8 @@
 		<div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/posts/1.jpg" class="card-img-top">
-			  <div class="card-body">
-				<h6 class="title">Tours And Travels</h6>
+			  <div class="card-body" style="background:#000;">
+				<h6 class="title" style="color: #cc5500;">Tours And Travels</h6>
 				<p class="small text-uppercase text-muted">Within East Africa</p>
 			  </div>
 			</article> <!-- card.// -->
@@ -19,8 +19,8 @@
 		<div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/2.jpg" class="card-img-top">
-			  <div class="card-body">
-				<h6 class="title">Car Hire</h6>
+			  <div class="card-body" style="background:#000;">
+				<h6 class="title" style="color: #cc5500;">Car Hire</h6>
 				<p class="small text-uppercase text-muted">At Affordable Prices</p>
 			  </div>
 			</article> <!-- card.// -->
@@ -28,8 +28,8 @@
 		<div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/posts/3.jpg" class="card-img-top">
-			  <div class="card-body">
-				<h6 class="title">Consultaion</h6>
+			  <div class="card-body" style="background:#000;">
+				<h6 class="title" style="color: #cc5500;">Consultaion</h6>
 				<p class="small text-uppercase text-muted">Services</p>
 			  </div>
 			</article> <!-- card.// -->
@@ -37,8 +37,8 @@
 		<div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/posts/4.jpg" class="card-img-top">
-			  <div class="card-body">
-				<h6 class="title">Booking </h6>
+			  <div class="card-body" style="background:#000;">
+				<h6 class="title" style="color: #cc5500;">Booking </h6>
 				<p class="small text-uppercase text-muted"> or Reservation</p>
 			  </div>
 			</article> <!-- card.// -->
