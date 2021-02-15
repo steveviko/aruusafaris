@@ -272,7 +272,7 @@
 								<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
 							</div> <!-- img-wrap.// -->
 							<figcaption class="info-wrap" style="background:#060606;font-weight:bolder;color:#ffffff;height: 250px;">
-									<a href="#" class="title mb-2" style="color: #dee2e6;"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageFetures), "...", 100);?></a>
+									<a href="#" class="title mb-2" style="color: #dee2e6;"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageDetails), "...", 100);?></a>
 									<div class="price-wrap mb-3">
 										<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
 										<small class="text-muted"></small>
