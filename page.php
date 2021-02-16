@@ -87,11 +87,11 @@ if($query->rowCount() > 0)
 ?>
 	</div> <!-- row.// -->
     <article class="card mb-4">
-		<header class="card-header bg-green text-white">
+		<!-- <header class="card-header bg-green text-white">
 			<a href="#" class="float-right"> <i class="fa fa-print"></i> </a>
 			<strong class="d-inline-block mr-3">Order ID: 6123456789</strong>
 			<span>Order Date: 16 December 2018</span>
-		</header>
+		</header> -->
 		<div class="card-body">
 			<div class="row"> 
 				<div class="col-md-12">
