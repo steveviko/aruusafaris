@@ -65,10 +65,10 @@ $cnt=1;
 if($query->rowCount() > 0)
 {
 ?>
-<h6 class="title">
+<h6 class="title mt-2" style="padding-left:3px;">
 			<a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#collapse_2"> Car Brands For Hire </a>
 		</h6>
-		<div class="filter-content collapse show" id="collapse_2">
+		<div class="filter-content collapse show" id="collapse_2" style="padding-left:3px;">
 			<div class="inner">
            <?php  foreach($results as $result)
 {       ?>  

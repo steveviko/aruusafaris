@@ -54,12 +54,11 @@
 		<section class="footer-top padding-y-lg text-white">
 			<div class="row">
 				<aside class="col-md col-6">
-					<h6 class="title">Brands</h6>
+					<h6 class="title">Membership and Associations</h6>
 					<ul class="list-unstyled">
-						<li> <a href="#">Adidas</a></li>
-						<li> <a href="#">Puma</a></li>
-						<li> <a href="#">Reebok</a></li>
-						<li> <a href="#">Nike</a></li>
+						<li> <a href="https://www.visituganda.com/">Uganda Tourism Board</a></li>
+						<li> <a href="https://www.ugandawildlife.org/">Uganda Wildlife Authority</a></li>
+						
 					</ul>
 				</aside>
 				<aside class="col-md col-6">
