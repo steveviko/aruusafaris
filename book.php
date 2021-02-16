@@ -47,12 +47,12 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 
 
 <div class="row">
-	<aside class="col-md-2" style="margin-top:135px">
+	<aside class="col-md-3" style="margin-top:135px">
 
 	
 		<?php include_once"aside.php"; ?>
 	</aside> <!-- col.// -->
-	<main class="col-md-10">
+	<main class="col-md-9">
 
 
 

@@ -6,13 +6,13 @@
 
 
 
-<div class="row">
-	<aside class="col-md-2">
+<div class="row" style="margin-top:135px">
+	<aside class="col-md-3">
 
 	
 		<?php include_once"aside.php"; ?>
 	</aside> <!-- col.// -->
-	<main class="col-md-10">
+	<main class="col-md-9">
 
 <!-- ============================  FILTER TOP  ================================= -->
 <section class="py-3 bg-light">

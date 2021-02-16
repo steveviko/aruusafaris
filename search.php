@@ -7,8 +7,8 @@
 
 
 
-<div class="row">
-	<aside class="col-md-2">
+<div class="row" style="margin-top:135px">
+	<aside class="col-md-3">
 
 	
 	<?php include_once"aside.php"; ?>

@@ -6,13 +6,13 @@
 
 
 <div class="row">
-	<aside class="col-md-2 " style="margin-top:135px">
+<aside class="col-md-3 " style="margin-top:135px">
 
-	<?php include_once"aside.php"; ?>
-	
+<?php include_once"aside.php"; ?>
 
-	</aside> <!-- col.// -->
-	<main class="col-md-10">
+
+</aside> <!-- col.// -->
+	<main class="col-md-9">
 	<?php 
 //Query for Listing count
 $sql = "SELECT id from tbltourpackages";

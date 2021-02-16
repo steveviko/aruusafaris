@@ -1,23 +1,15 @@
-<aside class="col-lg col-md-3 flex-lg-grow-0">
-	<div class="itemside d-block">
+<aside class="col-lg col-md-3 flex-lg-grow-0" style="background:#000000;padding:10px 1px;">
+<div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
 	<!-- <div class="form-row "style="margin-top:-3px;" >
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
 			  </div> -->
 </div><!-- itemside // -->
-
-		
-<div class="col-md-12">
-<div class="itemside d-block">
-	
-	<div class="form-row "style="margin-top:7px; width:100%" >
-		<a href="#" class="btn btn-success btn-sm  btn-block mt-1"><strong class="text-teal">Office Address</strong></a>
-	</div>
-</div>
-<nav class="nav-home-aside ">
- <!-- itemside // -->
-<!-- <ul class="menu-category">
+<nav class="nav-home-aside  " >
+<div class="form-row  mt-2 " >
+			   
+			  </div><!-- <ul class="menu-category">
 				<li><a href="#">Fashion and clothes</a></li>
 				<li><a href="#">Automobile and motors</a></li>
 				<li><a href="#">Gardening and agriculture</a></li>
@@ -35,21 +27,35 @@
 				</li>
 			</ul> -->
 		</nav>
-                <article class="box mb-1 " style="width:190px;margin-left:-20px">
-                    <h6>Gulu, Uganda</h6>
-                    <p>Building: Nestone <br> Floor: 22, Aprt: 12  </p>
-                    <a href="#" class="btn btn-light disabled"> <i class="fa fa-car"></i> </a> <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
-                </article>
-            </div>  <!-- col.// -->
-		
-		
-		
-			  <!-- <nav class="nav-home-aside ">
-			  <ul class="navbar-nav">
-			<li><a href="#" class="nav-link"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a></li>
-			<li><a href="#" class="nav-link"> <i class="fab fa-twitter" style="color:blue;"></i> Twitter </a></li>
-			</ul>
-		</nav> -->
+		<aside class="col-sm-12" >
+			<div class="info-aside">
+				<div class="price-wrap">
+					<span class="h5 price" style="color: #ff6a00;">Find Us</span> 
+					<small class="text-muted">
+					<article class="box mb-1">
+                    
+                    <p class="text-warning">Gulu,Building: Nestone <br> Floor: 22, Aprt: 12 
+                   <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
+				   </p> </article>
+					</small>
+				</div> <!-- price-wrap.// -->				
+				
+				
+				<p class="mt-3">
+					<a href="#" class="btn btn-outline-primary btn-sm"> <i class="fa fa-envelope"></i> aruufalssafaris@gmail.com </a>
+					<!-- <a href="#" class="btn btn-outline-primary"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a> -->
+					<a href="#" class="btn btn-outline-primary btn-sm mt-1"> <i class="fab fa-whatsapp" style="color:green;"></i> &nbsp;&nbsp;&nbsp; (+256) 772 517 666 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+					
+					<a href="#" class="btn btn-outline-secondary btn-sm mt-1"><i class="fa fa-phone" style="color:red;"></i> &nbsp;&nbsp;&nbsp; call: (+256) 772 517 666 &nbsp;&nbsp;&nbsp;</a>
+				</p>
+
+				<!-- <label class="custom-control mt-3 custom-checkbox">
+					  <input type="checkbox" class="custom-control-input">
+				  	  <div class="custom-control-label">Add to compare
+				  </div>
+				</label> -->
+
+			</div> <!-- info-aside.// -->
 	</aside> <!-- col.// -->
                   <?php $sql = "SELECT * from  tblbrands ";
 $query = $dbh -> prepare($sql);
@@ -81,4 +87,4 @@ if($query->rowCount() > 0)
 			</div> <!-- inner.// -->
 		</div>
 	</article> <!-- filter-group .// -->
-	
+	</aside> <!-- col.// -->
