@@ -69,6 +69,11 @@ include('includes/config.php');
     border: 2px solid #489689;
     border-radius: 0.55rem;
 }
+
+.section-header .smaller_logo  {
+    
+    display: none;
+}
 @media (max-width: 768px)
  {
     .brand-wrap{
@@ -104,17 +109,21 @@ include('includes/config.php');
 }
 
 }
-@media screen and (max-width: 375px) {
-  #main_nav8 > li {
-    width: 100%;
-    /* background-color: red; */
-  }
+@media screen and (max-width: 420px) {
+  .b{
+  
+  display: block;
+   padding: 0.5rem 1rem; 
+  margin-top:0.2em;
+
+}
   .brand-wrap {
     display: none;
   }
-  .serve{
-	  display:flex
-  }
+  .carousel-caption p {
+    background: none;
+    
+}
 
   #searchform {
     width: 200px;
@@ -141,10 +150,10 @@ include('includes/config.php');
 	/* margin-bottom:10px; */
 }
 
-.section-header{
+/* .section-header{
 	margin-top:230px;
 	
-}
+} */
 #locate {
 	display:none;
 }
@@ -223,6 +232,58 @@ include('includes/config.php');
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background: #73438f;
 }
+
+@media (max-width: 575px){
+
+.phone{
+  
+    background: #000000;
+    padding: 10px 7px;
+    display: none;
+
+}
+
+.padding-y {
+    padding-top: 250px;
+    /* padding-bottom: 20px; */
+}
+
+.carousel-caption h3 {
+    text-transform:capitalize;
+    display: none;
+}
+.section-header .smaller_logo  {
+    max-height: 172px;
+    width: auto;
+    display:block;
+}
+.section-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background:#fff;
+}
+.navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+    width: inherit;
+}
+.b{
+  
+    display: block;
+     padding: 0.5rem 1rem; 
+    margin-top:0.2em;
+
+}
+
+.carousel-caption p {
+    background: none;
+    
+}
+}
+
+
+
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
@@ -231,7 +292,15 @@ include('includes/config.php');
 <body>
 
 <b class="screen-overlay"></b>
-<header class="section-header"  >
+
+<header class="section-header "  >
+<div class="">
+	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
+	<img class="smaller_logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
+	<!-- <div class="form-row "style="margin-top:-3px;" >
+			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
+			  </div> -->
+</div>
 	<nav class="navbar p-md-0 navbar-fixed navbar-expand-sm navbar-light border-bottom">
 	<div class="container">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -287,12 +356,13 @@ include('includes/config.php');
     	</div> <!-- col.// -->
     	<div class="col-md-7 col-lg-5 col-sm-12 col-12  text-md-right">
     		<div class="mt-3 mt-md-0 serve">
-          <a href="./packages.php" class="btn btn-success"> Tour Packages </a>
-          <a href="./cars_list.php" class="btn btn-success"> Car Hire </a>
-          <a href="book.php" class="btn btn-success"> Safaris Booking</a>  
-          <button class="btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
+          <a href="./packages.php" class="b btn btn-success"> Tour Packages </a>
+         
+          <a href="./cars_list.php" class="b btn btn-success"> Car Hire </a>
+          <a href="book.php" class=" b btn btn-success"> Safaris Booking</a>  
+          <!-- <button class="btn float-right btn-light d-md-none" type="button" data-toggle="collapse" data-target="#main_nav8" aria-controls="main_nav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
-          </button>
+          </button> -->
         </div>
     	</div> <!-- col.// -->
     </div> <!-- row.// -->
