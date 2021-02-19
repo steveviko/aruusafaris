@@ -1,4 +1,4 @@
-<aside class="col-lg col-md-3 flex-lg-grow-0" style="background:#000000;padding:10px 1px;">
+<aside class="col-lg col-md-3 flex-lg-grow-0 phone" style="background:#000000;padding:10px 1px;">
 <div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
