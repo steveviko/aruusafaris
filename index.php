@@ -105,7 +105,7 @@
     </div>
 
     <div class="carousel-item">
-	  <img src="images/banners/3.jpg" alt="Second slide">
+	  <img src="images/banners/42.jpg" alt="Second slide">
 	  <div class="carousel-caption">
 		<h3>Dream and discover the world with us</h3>							
 		<p class="sec">Unforgettable Memories and Incredible Adventure</p>
@@ -113,7 +113,7 @@
     </div>
 
 	<div class="carousel-item">
-	  <img src="images/banners/15.jpg" alt="Third slide">
+	  <img src="images/banners/43.jpg" alt="Third slide">
 	  <div class="carousel-caption">
 		<h3>Visit, Discover, Explore</h3>							
 		<p class="sec">From land,to the shores, we can take you there..!</p>
@@ -129,7 +129,7 @@
     </div>
 
 	<div class="carousel-item">
-	  <img src="images/banners/11.jpg" alt="Fifth slide">
+	  <img src="images/banners/40.jpg" alt="Fifth slide">
 	  <div class="carousel-caption">
 		<h3>Your Trip,Your World, Your way</h3>
 		<p class="sec">Expedition of unexpected territory and living the life of adventure</p>
@@ -137,7 +137,7 @@
     </div>
 
 	<div class="carousel-item">
-	  <img src="images/banners/12.jpg" alt="Sixth slide">
+	  <img src="images/banners/45.jpg" alt="Sixth slide">
 	  <div class="carousel-caption">
 		<h3>Take Your Dream Vacation</h3>
 		<p class="sec">We Take photos as a return ticket to a moment otherwise gone.</p>
@@ -145,7 +145,7 @@
     </div>
 
     <div class="carousel-item">
-	  <img src="images/banners/13.jpg" alt="Seven slide">
+	  <img src="images/banners/41.jpg" alt="Seven slide">
 	  <div class="carousel-caption">
 		<h3>we are Explorer</h3>
 		<p class="sec">Mastering the art of adventure in the wild,Discover,Explore.</p>
