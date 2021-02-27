@@ -1,6 +1,6 @@
 
 <!-- =============== SECTION SERVICES =============== -->
-<section  class="padding-bottom" id="services">
+<!-- <section  class="padding-bottom" id="services">
 
 	<header class="section-heading heading-line">
 		<h4 class="title-section text-uppercase">Services Offered at Aruu Falls Safaris</h4>
@@ -14,38 +14,38 @@
 				<h6 class="title" style="color: #cc5500;">Tours And Travels</h6>
 				<p class="small text-uppercase text-muted">Within East Africa</p>
 			  </div>
-			</article> <!-- card.// -->
-		</div> <!-- col.// -->
-		<div class="col-md-3 col-sm-6">
+			</article> card.// -->
+		<!-- </div> col.// -->
+		<!-- <div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/2.jpg" class="card-img-top">
 			  <div class="card-body" style="background:#000;">
 				<h6 class="title" style="color: #cc5500;">Car Hire</h6>
 				<p class="small text-uppercase text-muted">At Affordable Prices</p>
-			  </div>
-			</article> <!-- card.// -->
-		</div> <!-- col.// -->
-		<div class="col-md-3 col-sm-6">
+			  </div> 
+			</article>  
+		</div>  col.// -->
+		<!-- <div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/posts/3.jpg" class="card-img-top">
 			  <div class="card-body" style="background:#000;">
 				<h6 class="title" style="color: #cc5500;">Consultaion</h6>
 				<p class="small text-uppercase text-muted">Services</p>
-			  </div>
-			</article> <!-- card.// -->
-		</div> <!-- col.// -->
-		<div class="col-md-3 col-sm-6">
+			  </div> -->
+			</article> <!-- card.// 
+		</div>  col.// -->
+		<!-- <div class="col-md-3 col-sm-6">
 			<article class="card card-post">
 			  <img src="images/posts/4.jpg" class="card-img-top">
 			  <div class="card-body" style="background:#000;">
 				<h6 class="title" style="color: #cc5500;">Booking </h6>
 				<p class="small text-uppercase text-muted"> or Reservation</p>
-			  </div>
-			</article> <!-- card.// -->
-		</div> <!-- col.// -->
-	</div> <!-- row.// -->
+			  </div> 
+			</article>  card.// 
+		</div>  
+	</div>  -->
 	
-	</section>
+	<!-- </section>  -->
 	<!-- =============== SECTION SERVICES .//END =============== -->
 	
 <!-- ========================= FOOTER ========================= -->
