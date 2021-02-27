@@ -58,7 +58,8 @@
 					<ul class="list-unstyled">
 						<li> <a href="https://www.visituganda.com/">Uganda Tourism Board</a></li>
 						<li> <a href="https://www.ugandawildlife.org/">Uganda Wildlife Authority</a></li>
-						
+						<li> <a href="https://www.tourism.go.ug/">Ministry of Tourism, Wildlife and Antiquities</a></li>
+						<li> <a href="https://uwec.ug/">Uganda Wildlife Education Center</a></li>
 					</ul>
 				</aside>
 				<aside class="col-md col-6">
