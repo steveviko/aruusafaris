@@ -123,14 +123,14 @@
 	<div class="carousel-item">
 	  <img src="images/banners/46.jpg" alt="Third slide">
 	  <div class="carousel-caption">
-		<h3>Affordable Accomodation</h3>							
+		<h3>Affordable Accomodation For Everyone</h3>							
 		<p class="sec">The Best Value during your adventure</p>
 		</div>	  
     </div>
 	<div class="carousel-item">
 	  <img src="images/banners/47.jpg" alt="Third slide">
 	  <div class="carousel-caption">
-		<h3>Creative Holidays</h3>							
+		<h3>Creative Holidays In Uganda</h3>							
 		<p class="sec">Adventures In Living, Create your kind of holiday</p>
 		</div>	  
     </div>
