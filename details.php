@@ -67,7 +67,7 @@ if($query->rowCount() > 0)
 					
 <!-- ============================ ITEM DETAIL ======================== -->
 	<div class="row">
-		<aside class="col-md-6">
+		<aside class="col-md-12">
 <div class="card">
 <article class="gallery-wrap"> 
 	<div class="img-big-wrap">
@@ -82,7 +82,7 @@ if($query->rowCount() > 0)
 </article> <!-- gallery-wrap .end// -->
 </div> <!-- card.// -->
 		</aside>
-		<main class="col-md-6">
+		<main class="col-md-9">
 <article class="product-info-aside">
 
 <h2 class="title mt-3"><b>Name:</b> <?php echo htmlentities($result->PackageName);?></h2>
@@ -169,7 +169,7 @@ if($query->rowCount() > 0)
 <div class="container">
 
 <div class="row">
-	<div class="col-md-8">
+	<div class="col-md-12">
 		<h5 class="title-description">Description</h5>
 		<p>
 		From, $<?php echo htmlentities($result->PackageDetails);?> 
@@ -189,9 +189,9 @@ if($query->rowCount() > 0)
 echo "No Items found under packages";
 } ?>
 
-	<aside class="col-md-4">
+	<!-- <aside class="col-md-4">
 
-		<div class="box">
+		<div class="box"> -->
 		
 		<!-- <h5 class="title-description">Files</h5>
 			<p>
@@ -203,7 +203,7 @@ echo "No Items found under packages";
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</p> -->
 
-    <h5 class="title-description">Videos</h5>
+    <!-- <h5 class="title-description">Videos</h5>
       
 
     <article class="media mb-3">
@@ -232,8 +232,8 @@ echo "No Items found under packages";
 
 
 		
-	</div> <!-- box.// -->
-	</aside> <!-- col.// -->
+	</div>  box.// -->
+	<!-- </aside> col.// --> 
 </div> <!-- row.// -->
 
 </div> <!-- container .//  -->

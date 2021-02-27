@@ -116,7 +116,7 @@
 		<section class="footer-bottom text-center">
 		
 				<p class="text-white">Privacy Policy - Terms of Use - User Information Legal Enquiry Guide</p>
-				<p class="text-white"> &copy 2020 Aruu Falls Safaris, All rights reserved </p>
+				<p class="text-white"> &copy 2021 Aruu Falls Safaris, All rights reserved </p>
 				<br>
 		</section>
 	</div><!-- //container -->

@@ -8,7 +8,7 @@
 
 
 <div class="row">
-	<aside class="col-lg col-md-4 flex-lg-grow-0 phone" style="background:#000000;padding:10px 7px;">
+	<aside class="col-lg col-md-4 flex-lg-grow-0 phone" style="background:#56B61C;padding:10px 7px;">
 	<div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
@@ -16,6 +16,7 @@
 			    <a href="#" class="btn btn-success btn-sm btn-block mt-1"><strong class="text-teal">ARUU FALLS SAFARIS</strong></a>
 			  </div> -->
 </div><!-- itemside // -->
+<nav class="nav-home-aside  " >
 <nav class="nav-home-aside  " >
 <div class="form-row  mt-2 " >
 			   
@@ -37,7 +38,7 @@
 				</li>
 			</ul> -->
 		</nav>
-		<aside class="col-sm-12" >
+		<aside class="col-sm-12" style="background:#000;padding-bottom:10px;">
 			<div class="info-aside">
 				<div class="price-wrap">
 					<span class="h5 price" style="color: #ff6a00;">Find Us</span> 
@@ -117,6 +118,20 @@
 	  <div class="carousel-caption">
 		<h3>Visit, Discover, Explore</h3>							
 		<p class="sec">From land,to the shores, we can take you there..!</p>
+		</div>	  
+    </div>
+	<div class="carousel-item">
+	  <img src="images/banners/46.jpg" alt="Third slide">
+	  <div class="carousel-caption">
+		<h3>Affordable Accomodation</h3>							
+		<p class="sec">The Best Value during your adventure</p>
+		</div>	  
+    </div>
+	<div class="carousel-item">
+	  <img src="images/banners/47.jpg" alt="Third slide">
+	  <div class="carousel-caption">
+		<h3>Creative Holidays</h3>							
+		<p class="sec">Adventures In Living, Create your kind of holiday</p>
 		</div>	  
     </div>
 

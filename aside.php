@@ -1,4 +1,4 @@
-<aside class="col-lg col-md-3 flex-lg-grow-0 phone" style="background:#000000;padding:10px 1px;">
+<aside class="col-lg col-md-3 flex-lg-grow-0 phone" style="background:#56B61C;padding:10px 1px;">
 <div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
@@ -27,7 +27,7 @@
 				</li>
 			</ul> -->
 		</nav>
-		<aside class="col-sm-12" >
+		<aside class="col-sm-12" style="background:#000;padding-bottom:10px;">
 			<div class="info-aside">
 				<div class="price-wrap">
 					<span class="h5 price" style="color: #ff6a00;">Find Us</span> 
@@ -57,34 +57,7 @@
 
 			</div> <!-- info-aside.// -->
 	</aside> <!-- col.// -->
-                  <?php $sql = "SELECT * from  tblbrands ";
-$query = $dbh -> prepare($sql);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-?>
-<h6 class="title mt-2" style="padding-left:3px;">
-			<a href="#" class="dropdown-toggle" data-toggle="collapse" data-target="#collapse_2"> Car Brands For Hire </a>
-		</h6>
-		<div class="filter-content collapse show" id="collapse_2" style="padding-left:3px;">
-			<div class="inner">
-           <?php  foreach($results as $result)
-{       ?>  
-
-				<label class="custom-control custom-checkbox">
-				  <input type="checkbox" checked="" class="custom-control-input">
-				  <div class="custom-control-label"><?php echo htmlentities($result->BrandName);?> 
-				  	<b class="badge badge-pill badge-light float-right"></b>  </div>
-                </label>
-                
-                <?php }} ?>
-				
-				
-				
-			
-			</div> <!-- inner.// -->
-		</div>
+   
+	
 	</article> <!-- filter-group .// -->
 	</aside> <!-- col.// -->
