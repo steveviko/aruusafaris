@@ -209,15 +209,7 @@ $cnt=$query->rowCount();
 ?>
 
 <!-- ============================  FILTER TOP  ================================= -->
-<div class="card mb-3" style="margin-top:115px">
-	<div class="card-body">
-		<ol class="breadcrumb float-left">
-			<li class="breadcrumb-item"><a href="index.php">Home</a></li>
-			<li class="breadcrumb-item"><a href="#">Pacakge Lists</a></li>
-			<!-- <li class="breadcrumb-item active">Item details</li> -->
-		</ol>
-	</div> <!-- card-body .// -->
-</div> <!-- card.// --> 
+
 <!-- ============================ FILTER TOP END.// ================================= -->
 
 <!-- <header class="mb-3">
