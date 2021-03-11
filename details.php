@@ -87,7 +87,7 @@ if($query->rowCount() > 0)
 
 <h2 class="title mt-3"><b>Name:</b> <?php echo htmlentities($result->PackageName);?></h2>
 
-<div class="rating-wrap my-3">
+<!-- <div class="rating-wrap my-3">
 	<ul class="rating-stars">
 		<li style="width:80%" class="stars-active"> 
 			<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
@@ -102,14 +102,14 @@ if($query->rowCount() > 0)
 	</ul>
 	<small class="label-rating text-muted">132 reviews</small>
 	<small class="label-rating text-success"> <i class="fa fa-clipboard-check"></i> 154 orders </small>
-</div> <!-- rating-wrap.// -->
+</div> -->
 
 <div class="mb-3"> 
 	<!-- <var class="price h4">From, $<?php// echo htmlentities($result->PackagePrice);?> </var>  -->
 	<span class="text-muted"></span> 
 </div> <!-- price-detail-wrap .// -->
 
-<p><?php echo htmlentities($result->PackageFetures);?> </p>
+<!-- <p><?php //echo htmlentities($result->PackageFetures);?> </p> -->
 
 
 <!-- <dl class="row">
@@ -172,7 +172,7 @@ if($query->rowCount() > 0)
 	<div class="col-md-12">
 		<h5 class="title-description">Description</h5>
 		<p>
-		From, $<?php echo htmlentities($result->PackageDetails);?> 
+		<?php echo htmlentities($result->PackageDetails);?> 
 		</p>
 		<!-- <ul class="list-check">
 		<li>Material: Stainless steel</li>
@@ -189,51 +189,7 @@ if($query->rowCount() > 0)
 echo "No Items found under packages";
 } ?>
 
-	<!-- <aside class="col-md-4">
 
-		<div class="box"> -->
-		
-		<!-- <h5 class="title-description">Files</h5>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p> -->
-
-    <!-- <h5 class="title-description">Videos</h5>
-      
-
-    <article class="media mb-3">
-      <a href="#"><img class="img-sm mr-3" src="images/posts/3.jpg"></a>
-      <div class="media-body">
-        <h6 class="mt-0"><a href="#">How to use this item</a></h6>
-        <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
-      </div>
-    </article>
-
-    <article class="media mb-3">
-      <a href="#"><img class="img-sm mr-3" src="images/posts/2.jpg"></a>
-      <div class="media-body">
-        <h6 class="mt-0"><a href="#">New tips and tricks</a></h6>
-        <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
-      </div>
-    </article>
-
-    <article class="media mb-3">
-      <a href="#"><img class="img-sm mr-3" src="images/posts/1.jpg"></a>
-      <div class="media-body">
-        <h6 class="mt-0"><a href="#">New tips and tricks</a></h6>
-        <p class="mb-2"> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin </p>
-      </div>
-    </article>
-
-
-		
-	</div>  box.// -->
-	<!-- </aside> col.// --> 
 </div> <!-- row.// -->
 
 </div> <!-- container .//  -->
@@ -242,6 +198,121 @@ echo "No Items found under packages";
 
 
 
+<?php 
+//Query for Listing count
+$sql = "SELECT id from tbltourpackages";
+$query = $dbh -> prepare($sql);
+$query->bindParam(':vhid',$vhid, PDO::PARAM_STR);
+$query->execute();
+$results=$query->fetchAll(PDO::FETCH_OBJ);
+$cnt=$query->rowCount();
+?>
+
+<!-- ============================  FILTER TOP  ================================= -->
+<div class="card mb-3" style="margin-top:115px">
+	<div class="card-body">
+		<ol class="breadcrumb float-left">
+			<li class="breadcrumb-item"><a href="index.php">Home</a></li>
+			<li class="breadcrumb-item"><a href="#">Pacakge Lists</a></li>
+			<!-- <li class="breadcrumb-item active">Item details</li> -->
+		</ol>
+	</div> <!-- card-body .// -->
+</div> <!-- card.// --> 
+<!-- ============================ FILTER TOP END.// ================================= -->
+
+<!-- <header class="mb-3">
+		<div class="form-inline">
+			<strong class="mr-md-auto">(<?php echo htmlentities($cnt);?>)Cars Found  </strong>
+			<select class="mr-2 form-control">
+				<option>Latest items</option>
+				<option>Trending</option>
+				<option>Most Popular</option>
+				<option>Cheapest</option>
+			</select>
+			<div class="btn-group">
+				<a href="#" class="btn btn-light" data-toggle="tooltip" title="List view"> 
+					<i class="fa fa-bars"></i></a>
+				<a href="#" class="btn btn-light active" data-toggle="tooltip" title="Grid view"> 
+					<i class="fa fa-th"></i></a>
+			</div>
+		</div>
+</header> -->
+<!-- sect-heading -->
+
+<?php $sql = "SELECT * from tbltourpackages order by rand() limit 9";
+$query = $dbh->prepare($sql);
+$query->execute();
+$results=$query->fetchAll(PDO::FETCH_OBJ);
+$cnt=1;
+if($query->rowCount() > 0)
+{ 
+foreach($results as $result)
+{	?>
+
+<article class="card card-product-list">
+	<div class="row no-gutters">
+		<aside class="col-md-3">
+			<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="img-wrap">
+				<span class="badge badge-danger"> NEW </span>
+				<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
+			</a>
+		</aside> <!-- col.// -->
+		<div class="col-md-6">
+			<div class="info-main">
+				<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
+				<div class="rating-wrap mb-2">
+					<ul class="rating-stars">
+						<li style="width:100%" class="stars-active"> 
+							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+							<i class="fa fa-star"></i> 
+						</li>
+						<li>
+							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
+							<i class="fa fa-star"></i> 
+						</li>
+					</ul>
+					<div class="label-rating">9/10</div>
+				</div> <!-- rating-wrap.// -->
+			
+				<p class="mb-3">
+					<span class="tag"> <i class="fa fa-check"></i> Verified</span> 
+					
+					<span class="tag"> 80 reviews </span>
+					
+				</p>
+
+				<p> <?php echo substr_replace(htmlentities($result->PackageDetails), "...", 200);?> </p>
+
+			</div> <!-- info-main.// -->
+		</div> <!-- col.// -->
+		<aside class="col-sm-3" >
+			<div class="info-aside">
+				<div class="price-wrap">
+					<!-- <span class="h5 price">From, $<?php //echo htmlentities($result->PackagePrice);?></span>  -->
+					<small class="text-muted"></small>
+				</div> <!-- price-wrap.// -->
+				<small class="text-warning">Call and we customize the package within your Budget</small>
+				
+				<p class="text-muted mt-3">Aruu Falls Safaris Co</p>
+				<p class="mt-3">
+					<a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-book"></i> Reservation  </a>
+					<a href="contact.php" class="btn btn-outline-primary"> <i class="fa fa-envelope"></i> Contact us </a>
+					<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-success mt-2"><i class="fa fa-arrow"></i> View Details </a>
+				</p>
+
+				
+
+			</div> <!-- info-aside.// -->
+		</aside> <!-- col.// -->
+	</div> <!-- row.// -->
+</article> <!-- card-product .// -->
+
+<?php }}else{
+
+echo "No Items found under packages";
+} ?>
 
 
 
@@ -257,3 +328,4 @@ echo "No Items found under packages";
 
 
 <?php include_once("./includes/footer.php"); ?> 
+

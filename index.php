@@ -293,7 +293,7 @@
 										<small class="text-muted"></small>
 									</div> <!-- price-wrap.// -->
 									<a href="book.php" class="btn btn-outline-success"> <i class="fa fa-pen"></i> Inquire </a>
-									<a href="packages.php<?php //echo htmlentities($result->PackageId);?>" class="btn btn-success"> <i class="fa fa-eye"></i>  Find More </a>
+									<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-success"> <i class="fa fa-eye"></i>  Read More </a>
 									
 									<!-- <hr> -->
 									<!-- <a href="#" class="btn btn-success btn-block"> View More </a> -->
