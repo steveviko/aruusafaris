@@ -138,8 +138,13 @@ $(document).ready(function(){
         pagination:true,
         navigation:false,
         autoPlay:true
+		
+    	
+		
     });
 });
+
+
 </script>
 <script>
 		// Can also be used with $(document).ready()

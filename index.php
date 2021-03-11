@@ -269,7 +269,7 @@
  
 <?php 
 	
-	$sql = "SELECT * from  tbltourpackages ORDER BY PackageId DESC LIMIT 0,3";
+	$sql = "SELECT * from  tbltourpackages ORDER BY PackageId ASC LIMIT 0,3";
 	$query = $dbh -> prepare($sql);
 	$query->execute();
 	$results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -293,7 +293,7 @@
 										<small class="text-muted"></small>
 									</div> <!-- price-wrap.// -->
 									<a href="book.php" class="btn btn-outline-success"> <i class="fa fa-pen"></i> Inquire </a>
-									<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="btn btn-success"> <i class="fa fa-eye"></i>  Read More </a>
+									<a href="packages.php<?php //echo htmlentities($result->PackageId);?>" class="btn btn-success"> <i class="fa fa-eye"></i>  Find More </a>
 									
 									<!-- <hr> -->
 									<!-- <a href="#" class="btn btn-success btn-block"> View More </a> -->
@@ -323,9 +323,9 @@
                     <p class="description">
 					This was our fourth trip with Aruu Falls Safrais Travels and it lived up to our very high expectations. It was a wonderfully organized trip with beautiful cruising and swimming spots, great hikes, and fascinating lectures on the region and history. The Vehicles was beautiful, comfortable, and excellently crewed
                     </p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/6.jpeg" alt="6">
-                    </div>
+                    </div> -->
                     <h3 class="title">Williamson Okeng</h3>
                     <span class="post">Uganda,Manager</span>
                 </div>
@@ -333,9 +333,9 @@
                     <p class="description">
 					This was the first time I had travelled with Aruu Falls Safaris. The company specialises in expert-led cultural and gulet tours in Europe. Group numbers are small, accommodation comfortable and food excellent. The expert guide who accompanied us was outstanding - passionate, informative, engaging and entertaining
                     </p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/7.jpg" alt="6">
-                    </div>
+                    </div> -->
                     <h3 class="title">Kevin John</h3>
                     <span class="post">Sweeden,Tutor</span>
                 </div>
@@ -344,9 +344,9 @@
 					Never could I have imagined the wonderful experiences that awaited me/us/before we began our trip.
 					I would highly recommend this company to anyone wanting a fun, relaxed, educational holiday with fine food - they will deliver!
 					</p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/3.png" alt="6">
-                    </div>
+                    </div> -->
                     <h3 class="title">Susan Ross</h3>
                     <span class="post">Canada Entreprenuer</span>
                 </div>
@@ -355,9 +355,9 @@
                     <p class="description">
 					The holiday of a life time - our Uganda’s hidden pearls adventure in the Gorilla Trek was without a doubt our favourite family trip. The comfort and beauty of the Kidepo National Park, the incredibly caring crew, the delicious food
                     </p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/7.jpeg" alt="7">
-                    </div>
+                    </div> -->
                     <h3 class="title">steven</h3>
                     <span class="post">USA, Web Designer</span>
                 </div>
@@ -365,9 +365,9 @@
                     <p class="description">
 					We had the most remarkable family tour with Aruu falls safaris. Not only everything was perfect, but we felt, in every instance, that our guides and our gulet crew truly cared about us, both the kids and adults, and did their best to make this trip memorable
                     </p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/8.jpeg" alt="8">
-                    </div>
+                    </div> -->
                     <h3 class="title">Johnson Katumba</h3>
                     <span class="post">Uganda, Unknown</span>
                 </div>
@@ -375,9 +375,9 @@
                     <p class="description">
 					Excellent. Our best tour operator yet. The itinerary was carefully thought through and well balanced. The trip represented great travel for the cost. Our booking was easy, the pre-information packet was timely and thorough.
                     </p>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="./images/c.png" alt="c">
-                    </div>
+                    </div> -->
                     <h3 class="title">kristina</h3>
                     <span class="post">USA,Egineer</span>
                 </div>
