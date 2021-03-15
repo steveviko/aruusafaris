@@ -73,7 +73,7 @@ foreach($results as $result)
 			</a>
 		</aside> <!-- col.// -->
 		<div class="col-md-6">
-			<div class="info-main">
+			<div class="info-main" style="background: #CB5C21;">
 				<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
 				<div class="rating-wrap mb-2">
 					<ul class="rating-stars">
