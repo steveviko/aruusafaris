@@ -68,13 +68,13 @@ echo "No Items found under packages";
 				</div> <!-- price-wrap.// -->				
 				
 				
-				// <p class="mt-3">
-				// 	<a href="#" class="btn btn-outline-primary btn-sm"> <i class="fa fa-envelope"></i> aruufalssafaris@gmail.com </a>
-				// 	<!-- <a href="#" class="btn btn-outline-primary"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a> -->
-				// 	<a href="#" class="btn btn-outline-primary btn-sm mt-1"> <i class="fab fa-whatsapp" style="color:green;"></i> &nbsp;&nbsp;&nbsp; (+256) 772 517 666 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
+				 <p class="mt-3">
+					<a href="#" class="btn btn-outline-primary btn-sm"> <i class="fa fa-envelope"></i> aruufalssafaris@gmail.com </a>
+					<!-- <a href="#" class="btn btn-outline-primary"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a> -->
+				<a href="#" class="btn btn-outline-primary btn-sm mt-1"> <i class="fab fa-whatsapp" style="color:green;"></i> &nbsp;&nbsp;&nbsp; (+256) 772 517 666 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
 					
-				// 	<a href="#" class="btn btn-outline-secondary btn-sm mt-1"><i class="fa fa-phone" style="color:red;"></i> &nbsp;&nbsp;&nbsp; call: (+256) 772 517 666 &nbsp;&nbsp;&nbsp;</a>
-				// </p>
+					<a href="#" class="btn btn-outline-secondary btn-sm mt-1"><i class="fa fa-phone" style="color:red;"></i> &nbsp;&nbsp;&nbsp; call: (+256) 772 517 666 &nbsp;&nbsp;&nbsp;</a>
+				</p>
 
 				 <!-- <label class="custom-control mt-3 custom-checkbox">
 				// 	  <input type="checkbox" class="custom-control-input">
