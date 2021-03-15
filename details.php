@@ -147,7 +147,7 @@ if($query->rowCount() > 0)
 			</a>
 			<a href="#" class="btn btn-light">
 		<!-- <i class="fas fa-envelope"></i>  -->
-		<span class="text">Contact us on <i class="fab fa-whatsapp" style="color:green"></i> (+256) 772 517 666 </span> 
+		<span class="text">Contact us on <i class="fab fa-whatsapp" style="color:green"></i> (+256) 702 369 454 </span> 
 			</a>
 		</div> <!-- col.// -->
 	</div> <!-- row.// -->
@@ -252,7 +252,7 @@ foreach($results as $result)
 		<div class="col-md-6" style="background: #CB5C21; color:#fff;">
 			<div class="info-main">
 				<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
-				<div class="rating-wrap mb-2">
+				<!-- <div class="rating-wrap mb-2">
 					<ul class="rating-stars">
 						<li style="width:100%" class="stars-active"> 
 							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
@@ -266,14 +266,14 @@ foreach($results as $result)
 						</li>
 					</ul>
 					<div class="label-rating">9/10</div>
-				</div> <!-- rating-wrap.// -->
+				</div> rating-wrap.// -->
 			
-				<p class="mb-3">
+				<!-- <p class="mb-3">
 					<span class="tag"> <i class="fa fa-check"></i> Verified</span> 
 					
 					<span class="tag"> 80 reviews </span>
 					
-				</p>
+				</p> -->
 
 				<p> <?php echo substr_replace(htmlentities($result->PackageDetails), "...", 200);?> </p>
 
