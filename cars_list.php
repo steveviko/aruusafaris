@@ -115,8 +115,8 @@ if($query->rowCount() > 0)
   <div class="card-img-overlay text-white">
     <h5 class="card-title">Call or Email us for more information</h5>
 	<p class="card-text"><i class="fab fa-facebook" style="color:blue;"></i> Facebook <br>
-	<i class="fa fa-envelope" style="color:blue;"></i> aruusafaris@gmail.com <br>
-	<i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 772 517 666.</p>
+	<i class="fa fa-envelope" style="color:blue;"></i> aruufallssafaris@gmail.com <br>
+	<i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 702 369 454.</p>
   </div>
 </div>
 <!-- ============================ COMPONENT BANNER 8  END .// ================================= -->

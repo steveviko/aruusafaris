@@ -170,7 +170,7 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
       <form role="form">
 	  <div class="col-md-12">
                 <article class="box mb-4">
-                    <h6>Gulu, Uganda</h6>
+                    <h6>Kampala, Uganda</h6>
                     <p>Building one <br> Floor: 2, Aprt: 32  </p>
                     <a href="#" class="btn btn-light"></a> <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
                 </article>
@@ -181,10 +181,10 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 <div class="input-group">
 	<nav>
 	<ul class="navbar-nav">
-		<li><a href="#" class="nav-link"> <i class="fa fa-envelope" style="color:blue;"></i> aruusafaris@gmail.com </a></li>
+		<li><a href="#" class="nav-link"> <i class="fa fa-envelope" style="color:blue;"></i> aruufallssafaris@gmail.com </a></li>
 			<li><a href="#" class="nav-link"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a></li>
-			<li><a href="#" class="nav-link"> <i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 772 517 666 </a></li>
-			<li><a href="#" class="nav-link"> <i class="fa fa-phone"></i> Call us (+256) 772 517 666</a></li>
+			<li><a href="#" class="nav-link"> <i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 702 369 454 </a></li>
+			<li><a href="#" class="nav-link"> <i class="fa fa-phone"></i> Call us (+256) 7703 941 720</a></li>
 		</ul> <!-- list-inline //  -->
 	</nav>
 	</div>

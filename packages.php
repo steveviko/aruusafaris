@@ -76,7 +76,7 @@ foreach($results as $result)
 			<div class="info-main" >
 				<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
 				<div class="rating-wrap mb-2">
-					<ul class="rating-stars">
+					<!-- <ul class="rating-stars">
 						<li style="width:100%" class="stars-active"> 
 							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
 							<i class="fa fa-star"></i> <i class="fa fa-star"></i> 
@@ -88,13 +88,13 @@ foreach($results as $result)
 							<i class="fa fa-star"></i> 
 						</li>
 					</ul>
-					<div class="label-rating">9/10</div>
+					<div class="label-rating">9/10</div> -->
 				</div> <!-- rating-wrap.// -->
 			
 				<p class="mb-3">
-					<span class="tag"> <i class="fa fa-check"></i> Verified</span> 
+					<!-- <span class="tag"> <i class="fa fa-check"></i> Verified</span> 
 					
-					<span class="tag"> 80 reviews </span>
+					<span class="tag"> 80 reviews </span> -->
 					
 				</p>
 
