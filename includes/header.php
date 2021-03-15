@@ -281,9 +281,9 @@ include('includes/config.php');
     
 }
 }
-body{
+/* body{
   font-size: 1.2rem;
-}
+} */
 
 
 </style>
