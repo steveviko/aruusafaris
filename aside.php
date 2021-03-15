@@ -76,7 +76,7 @@ echo "No Items found under packages";
 				// 	<a href="#" class="btn btn-outline-secondary btn-sm mt-1"><i class="fa fa-phone" style="color:red;"></i> &nbsp;&nbsp;&nbsp; call: (+256) 772 517 666 &nbsp;&nbsp;&nbsp;</a>
 				// </p>
 
-				// <!-- <label class="custom-control mt-3 custom-checkbox">
+				 <!-- <label class="custom-control mt-3 custom-checkbox">
 				// 	  <input type="checkbox" class="custom-control-input">
 				//   	  <div class="custom-control-label">Add to compare
 				//   </div>
