@@ -29,41 +29,32 @@
 		</nav>
 		<aside class="col-sm-12" style="background:#000;padding-bottom:10px;">
 			<div class="info-aside">
-			<?php 
-//Query for Listing count
-$sql = "SELECT id from tbltourpackages";
-$query = $dbh -> prepare($sql);
-$query->bindParam(':vhid',$vhid, PDO::PARAM_STR);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=$query->rowCount();
-?>
+		
 
 				<div class="price-wrap">
-					<span class="h5 price" style="color: #ff6a00;">Find Us</span> 
+					<span class="h5 price" style="color: #ff6a00;">Our packages</span> 
 					<small class="text-muted">
-					<article class="box mb-1">
 					<?php $sql = "SELECT * from tbltourpackages order by rand() limit 9";
-					$query = $dbh->prepare($sql);
-					$query->execute();
-					$results=$query->fetchAll(PDO::FETCH_OBJ);
-					$cnt=1;
-					if($query->rowCount() > 0)
-					{ 
-					foreach($results as $result)
-					{	?>
-                    <a href="details.php?pkgid=<?php echo htmlentities($result->PackageName);?>" class="img-wrap">
-				
-				
-					</a>
-					<?php }}else{
-
-echo "No Items found under packages";
-} ?>
+$query = $dbh->prepare($sql);
+$query->execute();
+$results=$query->fetchAll(PDO::FETCH_OBJ);
+$cnt=1;
+if($query->rowCount() > 0)
+{ 
+foreach($results as $result)
+{	?>
+					<article class="box mb-1">
+					<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" 
+					class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
+			
                 <!-- //     <p class="text-warning">P.O.BOX,40492:Kampala <br>  
                 //    <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
 				//    </p>  -->
 				</article>
+				<?php }}else{
+
+echo "No Items found under packages";
+} ?>
 					</small>
 				</div> <!-- price-wrap.// -->				
 				
