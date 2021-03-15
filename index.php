@@ -193,77 +193,6 @@ echo "No Items found under packages";
   </a>
 </div> 
 <!-- ==================  COMPONENT SLIDER BOOTSTRAP end.// ==================  .// -->	
-
-	</div> <!-- col.// -->
-	
-</div> <!-- row.// -->
-	</div> <!-- card-body.// -->
-</main> <!-- card.// -->
-
-</section>
-<!-- ========================= SECTION MAIN END// ========================= -->
-
-
-<!-- =============== SECTION DEAL =============== -->
-<section class="padding-bottom">
- <!-- <div class="card card-deal " >
-     <div class="col-heading content-body" style="background:#489689;">
-      <header class="section-heading">
-       <h3 class="section-title">Specail Offers</h3>
-       <p>To Top East African Tourist Destinations</p>
-     </header>sect-heading -->
-     <!-- <div class="timer">
-       <div> <span class="num">04</span> <small>Days</small></div>
-       <div> <span class="num">12</span> <small>Hours</small></div>
-       <div> <span class="num">58</span> <small>Min</small></div>
-       <div> <span class="num">02</span> <small>Sec</small></div>
-     </div>
-   </div> col.// -->
-  
-	<!-- <?php 
-	
-// $sql = "SELECT * from  tbltourpackages ORDER BY PackageId ASC LIMIT 0,3";
-// $query = $dbh -> prepare($sql);
-// $query->execute();
-// $results=$query->fetchAll(PDO::FETCH_OBJ);
-// $cnt=1;
-// if($query->rowCount() > 0)
-// {
-?>
-   <div class="row no-gutters items-wrap">
-  <?php// foreach($results as $result)
-//{       ?>  
-
- <div class="col-md-4">
-					<figure class="card card-product-grid">
-						<div class="img-wrap"> 
-							<img src="admin/pacakgeimages/<?php //echo htmlentities($result->PackageImage);?>"">
-						</div>  img-wrap.// -->
-						<!-- <figcaption class="info-wrap">
-								<a href="#" class="title mb-2"><strong>Package Name:</strong><?php //echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php// echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
-								<div class="price-wrap mb-3">
-									 <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
-									<!-- <small class="text-muted"></small> 
-								</div>  price-wrap.// -->
-								<!-- <a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
-								<a href="details.php?pkgid=<?php //echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
-								
-								<hr>
-								<a href="#" class="btn btn-success btn-block"> View More </a>
-						</figcaption>
-					</figure>
-				</div> -->
-				<?php //}} else{
-	 //echo "No items found under specail offers";
- //}?>
- 
-<!-- </div>
-</div>
-
-</section> --> 
-<!-- =============== SECTION DEAL // END =============== -->
-
-<!-- =============== SECTION 1 =============== -->
 <section class="padding-bottom">
 <header class="section-heading heading-line" >
 	<h4 class="title-section text-uppercase">Packages</h4>
@@ -409,6 +338,77 @@ echo "No Items found under packages";
 <section class="padding-bottom">
 <?php  include_once("./quotes.php");?>
 </section>
+	</div> <!-- col.// -->
+	
+</div> <!-- row.// -->
+	</div> <!-- card-body.// -->
+</main> <!-- card.// -->
+
+</section>
+<!-- ========================= SECTION MAIN END// ========================= -->
+
+
+<!-- =============== SECTION DEAL =============== -->
+<section class="padding-bottom">
+ <!-- <div class="card card-deal " >
+     <div class="col-heading content-body" style="background:#489689;">
+      <header class="section-heading">
+       <h3 class="section-title">Specail Offers</h3>
+       <p>To Top East African Tourist Destinations</p>
+     </header>sect-heading -->
+     <!-- <div class="timer">
+       <div> <span class="num">04</span> <small>Days</small></div>
+       <div> <span class="num">12</span> <small>Hours</small></div>
+       <div> <span class="num">58</span> <small>Min</small></div>
+       <div> <span class="num">02</span> <small>Sec</small></div>
+     </div>
+   </div> col.// -->
+  
+	<!-- <?php 
+	
+// $sql = "SELECT * from  tbltourpackages ORDER BY PackageId ASC LIMIT 0,3";
+// $query = $dbh -> prepare($sql);
+// $query->execute();
+// $results=$query->fetchAll(PDO::FETCH_OBJ);
+// $cnt=1;
+// if($query->rowCount() > 0)
+// {
+?>
+   <div class="row no-gutters items-wrap">
+  <?php// foreach($results as $result)
+//{       ?>  
+
+ <div class="col-md-4">
+					<figure class="card card-product-grid">
+						<div class="img-wrap"> 
+							<img src="admin/pacakgeimages/<?php //echo htmlentities($result->PackageImage);?>"">
+						</div>  img-wrap.// -->
+						<!-- <figcaption class="info-wrap">
+								<a href="#" class="title mb-2"><strong>Package Name:</strong><?php //echo substr_replace(htmlentities($result->PackageName), "...", 10);?>,<br><strong>Location:</strong><?php// echo substr_replace(htmlentities($result->PackageLocation), "...", 10);?></a>
+								<div class="price-wrap mb-3">
+									 <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
+									<!-- <small class="text-muted"></small> 
+								</div>  price-wrap.// -->
+								<!-- <a href="book.php" class="btn btn-outline-primary"> <i class="fa fa-pen"></i> Inquire </a>
+								<a href="details.php?pkgid=<?php //echo htmlentities($result->PackageId);?>" class="btn btn-primary"> <i class="fa fa-eye"></i>  Details </a>
+								
+								<hr>
+								<a href="#" class="btn btn-success btn-block"> View More </a>
+						</figcaption>
+					</figure>
+				</div> -->
+				<?php //}} else{
+	 //echo "No items found under specail offers";
+ //}?>
+ 
+<!-- </div>
+</div>
+
+</section> --> 
+<!-- =============== SECTION DEAL // END =============== -->
+
+<!-- =============== SECTION 1 =============== -->
+
 
 <!-- =============== SECTION REQUEST .//END =============== -->
 
