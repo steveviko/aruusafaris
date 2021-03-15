@@ -72,8 +72,8 @@ foreach($results as $result)
 				<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
 			</a>
 		</aside> <!-- col.// -->
-		<div class="col-md-6">
-			<div class="info-main" style="background: #CB5C21 ! important; ">
+		<div class="col-md-6" style="background: #CB5C21 ! important;">
+			<div class="info-main" >
 				<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
 				<div class="rating-wrap mb-2">
 					<ul class="rating-stars">
