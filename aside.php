@@ -52,7 +52,7 @@ $cnt=$query->rowCount();
 					{ 
 					foreach($results as $result)
 					{	?>
-                    <a href="details.php?pkgid=<?php echo htmlentities($result->name);?>" class="img-wrap">
+                    <a href="details.php?pkgid=<?php echo htmlentities($result->PackageName);?>" class="img-wrap">
 				
 				
 					</a>
