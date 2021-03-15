@@ -34,7 +34,7 @@
 				<div class="price-wrap">
 					<span class="h5 price" style="color: #ff6a00;">Our packages</span> 
 					<small class="text-muted">
-					<?php $sql = "SELECT * from tbltourpackages order by rand() limit 9";
+					<?php $sql = "SELECT * from tbltourpackages order by rand() limit 15";
 $query = $dbh->prepare($sql);
 $query->execute();
 $results=$query->fetchAll(PDO::FETCH_OBJ);
@@ -45,7 +45,7 @@ foreach($results as $result)
 {	?>
 					<article class="box mb-1">
 					<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" 
-					class="h5 title"> <b>Name: </b><?php echo htmlentities($result->PackageName);?> </a>
+					class="h5"> <?php echo htmlentities($result->PackageName);?> </a>
 			
                 <!-- //     <p class="text-warning">P.O.BOX,40492:Kampala <br>  
                 //    <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
