@@ -281,7 +281,9 @@ include('includes/config.php');
     
 }
 }
-
+body{
+  font-size: 1.5rem;
+}
 
 
 </style>
