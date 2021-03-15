@@ -63,7 +63,7 @@
 					</ul>
 				</aside>
 				<aside class="col-md col-6">
-					<h6 class="title">Company</h6>
+					<h6 class="title">About Us</h6>
 				<?php	$sql = "SELECT * from tblpages order by rand() ";
 					$query = $dbh->prepare($sql);
 					$query->execute();
