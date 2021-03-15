@@ -244,7 +244,7 @@ include('includes/config.php');
 }
 
 .padding-y {
-    padding-top: 250px;
+    /* padding-top: 250px; */
     /* padding-bottom: 20px; #CB5C21 #E8AA2D*/
 }
 
