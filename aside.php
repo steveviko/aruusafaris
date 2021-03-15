@@ -32,7 +32,7 @@
 		
 
 				<div class="price-wrap">
-					<span class="" style="color: #fff;text-align:center; text-transform:uppercase;">Our packages</span> 
+					<span class="" style="color: #fff;padding:20px; text-transform:uppercase;">Our packages</span> 
 					<small class="text-muted">
 					<?php $sql = "SELECT * from tbltourpackages order by rand() limit 15";
 $query = $dbh->prepare($sql);
