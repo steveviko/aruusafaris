@@ -24,7 +24,7 @@ $cnt=$query->rowCount();
 ?>
 
 <!-- ============================  FILTER TOP  ================================= -->
-<div class="card mb-3" style="margin-top:115px">
+<div class="card mb-3" style="margin-top:">
 	<div class="card-body">
 		<ol class="breadcrumb float-left">
 			<li class="breadcrumb-item"><a href="index.php">Home</a></li>

@@ -43,7 +43,7 @@ if($query->rowCount() > 0)
 { 
 foreach($results as $result)
 {	?>
-					<article class="box mb-1">
+					<article class="box mb-1"style="background:#CB5C21;color:#fff;font-size:1.1rem !important;" >
 					<a href="details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" 
 					class="h5"> <?php echo htmlentities($result->PackageName);?> </a>
 			
