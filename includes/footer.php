@@ -89,7 +89,7 @@
 						<li> <a href="#">Contact us</a></li>
 						<li> <a href="#"><i class="fab fa-whatsapp"></i> (+256) 702 369 454  </a></li>
 						<li> <a href="#"><i class="fa fa-phone"></i> (+256) 7703 941 720 </a></li>
-						<li> <a href="#"><i class="fa fa-envelope"></i> aruufallssafaris@gmail.com</a></li>
+						<li> <a href="#" style="font-size:17px;"><i class="fa fa-envelope"></i> aruufallssafaris@gmail.com</a></li>
 						<!-- <li> <a href="#">Open dispute</a></li> -->
 					</ul>
 				</aside>
