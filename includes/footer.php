@@ -87,9 +87,9 @@
 					<h6 class="title">Help</h6>
 					<ul class="list-unstyled">
 						<li> <a href="#">Contact us</a></li>
-						<li> <a href="#"><i class="fab fa-whatsapp"></i> (+256) 772 517 666 </a></li>
-						<li> <a href="#"><i class="fa fa-phone"></i> (+256) 772 517 666 </a></li>
-						<li> <a href="#"><i class="fa fa-envelope"></i> aruufalls@gmail.com</a></li>
+						<li> <a href="#"><i class="fab fa-whatsapp"></i> (+256) 702 369 454  </a></li>
+						<li> <a href="#"><i class="fa fa-phone"></i> (+256) 7703 941 720 </a></li>
+						<li> <a href="#"><i class="fa fa-envelope"></i> aruufallss@gmail.com</a></li>
 						<!-- <li> <a href="#">Open dispute</a></li> -->
 					</ul>
 				</aside>
