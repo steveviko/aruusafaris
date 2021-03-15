@@ -164,12 +164,12 @@ include('includes/config.php');
     height: auto;
 }}
 
-.section-header{
+/* .section-header{
 	position: fixed;
     z-index: 99;
     width: 100%;
 	margin-bottom:20px;
-}
+} */
 
 
 .testimonial{
@@ -257,12 +257,12 @@ include('includes/config.php');
     width: auto;
     display:block;
 }
-.section-header {
+/* .section-header {
     position: fixed;
     z-index: 999;
     width: 100%;
     background:#fff;
-}
+} */
 .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
     border-color: rgba(0, 0, 0, 0.1);
