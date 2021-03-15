@@ -330,7 +330,7 @@ include('includes/config.php');
 		<ul class="navbar-nav">
 		<li><a href="#" class="nav-link"> <i class="fa fa-envelope" style="color:blue;"></i> aruusafaris@gmail.com </a></li>
 			<li><a href="#" class="nav-link"> <i class="fab fa-facebook" style="color:blue;"></i> Facebook </a></li>
-			<li><a href="#" class="nav-link"> <i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 772 517 666 </a></li>
+			<li><a href="#" class="nav-link"> <i class="fab fa-whatsapp" style="color:green;" ></i> (+256) 702 369 454 </a></li>
 			<li><a href="#" class="nav-link"> <i class="fa fa-phone"></i> Call us (+256) 772 517 666</a></li>
 		</ul> <!-- list-inline //  -->
 	  </div> <!-- navbar-collapse .// -->

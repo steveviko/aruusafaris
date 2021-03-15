@@ -34,7 +34,7 @@
 					<small class="text-muted">
 					<article class="box mb-1">
                     
-                    <p class="text-warning">Gulu,Building: Nestone <br> Floor: 22, Aprt: 12 
+                    <p class="text-warning">P.O.BOX ,40492:Kampala <br>  
                    <a href="#" class="btn btn-light"> <i class="fa fa-pen"></i> </a>   <a href="#" class="btn btn-light"> <i class="text-danger fa fa-trash"></i>  </a>
 				   </p> </article>
 					</small>

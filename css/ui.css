@@ -3,11 +3,11 @@
 @import url("https://rsms.me/inter/inter.css");
 html {
   font-family: "Inter", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 
 }
 body{
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 /* ========================
 INCLUDE STYLES AND COMPONENTS
