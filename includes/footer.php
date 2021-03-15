@@ -56,10 +56,10 @@
 				<aside class="col-md col-6">
 					<h6 class="title">Membership and Associations</h6>
 					<ul class="list-unstyled">
-						<li> <a href="https://www.visituganda.com/">Uganda Tourism Board</a></li>
-						<li> <a href="https://www.ugandawildlife.org/">Uganda Wildlife Authority</a></li>
-						<li> <a href="https://www.tourism.go.ug/">Ministry of Tourism, Wildlife and Antiquities</a></li>
-						<li> <a href="https://uwec.ug/">Uganda Wildlife Education Center</a></li>
+						<li> <a href="https://www.visituganda.com/" style="font-size:17px;">Uganda Tourism Board</a></li>
+						<li> <a href="https://www.ugandawildlife.org/" style="font-size:17px;">Uganda Wildlife Authority</a></li>
+						<li> <a href="https://www.tourism.go.ug/" style="font-size:17px;">Ministry of Tourism, Wildlife and Antiquities</a></li>
+						<li> <a href="https://uwec.ug/" style="font-size:17px;">Uganda Wildlife Education Center</a></li>
 					</ul>
 				</aside>
 				<aside class="col-md col-6">
@@ -96,9 +96,9 @@
 				<aside class="col-md col-6">
 					<h6 class="title">Services</h6>
 					<ul class="list-unstyled">
-						<li> <a href="#"> Tours And Travels </a></li>
-						<li> <a href="#"> Car Hire </a></li>
-						<li> <a href="#"> Consultations </a></li>
+						<li> <a href="packages.php"> Tours And Travels </a></li>
+						<li> <a href="car_list.php"> Car Hire </a></li>
+						<!-- <li> <a href="#"> Consultations </a></li> -->
 						<!-- <li> <a href="#"> My Orders </a></li> -->
 					</ul>
 				</aside>
