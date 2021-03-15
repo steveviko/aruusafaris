@@ -242,9 +242,7 @@ include('includes/config.php');
     display: none;
 
 }
-main{
-  margin-top: 1px ; 
-}
+
 .padding-y {
     /* padding-top: 250px; */
     /* padding-bottom: 20px; #CB5C21 #E8AA2D*/
@@ -284,7 +282,7 @@ main{
 }
 }
 body{
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 
