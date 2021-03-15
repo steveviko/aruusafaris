@@ -3,7 +3,7 @@
 <div class="container">
 <!-- ========================= SECTION MAIN  ========================= -->
 <section class="section-main padding-y" >
-<main class="card " style="margin-top:115px">
+<main class="card " style="margin-top:">
 	<div class="card-body">
 
 
