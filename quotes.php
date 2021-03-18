@@ -36,7 +36,8 @@ echo "<script type='text/javascript'> document.location = 'thankyou.php'; </scri
 
 <div class="row">
 	<div class="col-md-8">
-<div class="card-banner banner-quote overlay-gradient" style="background-image: url('images/banners/banner9.jpg');height:auto;">
+<div class="card-banner banner-quote overlay-gradient" style="background-image: url('images/banners/banner9.jpg');height: 535px;
+    object-fit: contain;">
   <div class="card-img-overlay white">
     <h3 class="card-title">An easy way to send request and Plan your Package</h3>
     <p class="card-text" style="max-width: 400px">Explore the world with us, best prices, best services, From land,to the shores, we can take you there.</p>

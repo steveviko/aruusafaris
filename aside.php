@@ -1,4 +1,4 @@
-<aside class="col-lg col-md-3 flex-lg-grow-0 phone" style="background:#56B61C;padding:10px 1px;">
+<aside class="col-lg col-md-3 flex-lg-grow-0 phone" style="padding:10px 1px;">
 <div class="itemside d-block">
 	<!-- <img src="../images/items/3.jpg" class="img-xs"> -->
 	<img class="logo " src="./images/lion30.jpg" style="width:100%;border-radius:100px" >
@@ -27,7 +27,7 @@
 				</li>
 			</ul> -->
 		</nav>
-		<aside class="col-sm-12" style="background:#000;padding-bottom:10px;">
+		<aside class="col-sm-12" style="background:#56B61C;padding-bottom:10px;">
 			<div class="info-aside">
 		
 
