@@ -232,7 +232,7 @@ echo "No Items found under packages";
 								<img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>">
 							</div> <!-- img-wrap.// -->
 							<figcaption class="info-wrap" style="background:#CB5C21;font-family: Arial,Helvetica,sans-serif;font-weight:bolder;color:#ffffff;height: 350px;">
-									<a href="#" class="title mb-2" style="color: #dee2e6;"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageDetails), "...", 250);?></a>
+									<a href="#" class="title mb-2" style="color: #dee2e6;"><?php echo substr_replace(htmlentities($result->PackageName), "...", 40);?><br/><br/><?php echo substr_replace(htmlentities($result->PackageDetails), "...", 150);?></a>
 									<div class="price-wrap mb-3">
 										<!-- <span class="price">From, $<?php //echo htmlentities($result->PackagePrice);?>"</span>  -->
 										<small class="text-muted"></small>
