@@ -2,6 +2,10 @@
 
 Aruu Falls Safaris is a PHP/MySQL tourism website for promoting East African safari packages and vehicle hire. The site provides public booking and enquiry forms backed by a PHP administration portal for managing the site's content and reservations.
 
+> **Preview the interface:** [Open the static GitHub Pages showcase](https://steveviko.github.io/aruusafaris/)
+
+The showcase is a static, responsive representation of the public-facing experience. It is designed for visual review and does not execute PHP, submit bookings, or connect to MySQL.
+
 ## Features
 
 ### Public website
@@ -13,6 +17,7 @@ Aruu Falls Safaris is a PHP/MySQL tourism website for promoting East African saf
 - Search across tour packages and vehicles.
 - Contact, enquiry, quotation, and informational page forms.
 - Responsive interface built with Bootstrap, jQuery, FlexSlider, Font Awesome, and custom CSS/Sass.
+- Static showcase in [`docs/`](docs/) for reviewing the public UI on GitHub Pages.
 
 ### Administration portal
 
@@ -62,6 +67,18 @@ The `/admin` directory contains a session-protected dashboard for:
 - A web server such as Apache or Nginx configured to serve PHP
 
 No Composer or Node.js package manifest is included. Front-end libraries are committed in the repository.
+
+## Static GitHub Pages preview
+
+The repository includes a self-contained static preview under [`docs/`](docs/). It uses the project's existing logo and photography while presenting the main customer journey as a responsive landing page:
+
+- Hero carousel and primary calls to action.
+- Safari, culture, slow-travel, and vehicle-hire experience cards.
+- Brand story and service differentiators.
+- Testimonials and contact details.
+- A non-submitting enquiry form that explains the preview limitation.
+
+The workflow in [`.github/workflows/pages.yml`](.github/workflows/pages.yml) publishes `docs/` automatically whenever the preview changes on `main`. GitHub Pages cannot run the PHP/MySQL application itself; use a PHP-enabled web server for the live application.
 
 ## Local setup
 
